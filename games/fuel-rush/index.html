@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="pt-PT">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Fuel Rush — JogaZone</title>
+<link rel="icon" href="../../assets/icons/favicon.svg" type="image/svg+xml">
+<link rel="stylesheet" href="../../css/style.css">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<header class="site-header"><div class="container"><a class="logo" href="../../index.html"><span class="mark">🎮</span>Joga<span class="tail">Zone</span></a></div></header>
+<main class="container">
+  <div class="game-page-header">
+    <a class="back-link" href="../../index.html">&larr; Todos os jogos</a>
+    <h1>Fuel Rush</h1>
+  </div>
+  <div class="game-stage">
+    <div class="game-hud">
+      <div>Distância: <strong id="dist">0</strong> / <span id="goal">1500</span>m</div>
+      <div>Combustível: <strong id="fuel">100</strong>%</div>
+    </div>
+    <canvas id="canvas"></canvas>
+  </div>
+  <div class="how-to-play">
+    <h2>Como jogar</h2>
+    <p>Usa <strong>◀</strong> / <strong>▶</strong> para mudar de faixa e apanhar os bidões de combustível (⛽). O depósito esvazia com a distância — chega ao destino antes que o combustível acabe.</p>
+  </div>
+</main>
+<script src="script.js"></script>
+</body>
+</html>

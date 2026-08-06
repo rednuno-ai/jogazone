@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="pt-PT">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Wheel Change — JogaZone</title>
+<link rel="icon" href="../../assets/icons/favicon.svg" type="image/svg+xml">
+<link rel="stylesheet" href="../../css/style.css">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<header class="site-header"><div class="container"><a class="logo" href="../../index.html"><span class="mark">🎮</span>Joga<span class="tail">Zone</span></a></div></header>
+<main class="container">
+  <div class="game-page-header">
+    <a class="back-link" href="../../index.html">&larr; Todos os jogos</a>
+    <h1>Wheel Change</h1>
+  </div>
+  <div class="game-stage">
+    <div class="game-hud">
+      <div>Parafuso: <strong id="bolt">0</strong> / 5</div>
+      <div>Tempo: <strong id="time">0.0</strong>s</div>
+      <div>Melhor: <strong id="best">—</strong>s</div>
+    </div>
+    <canvas id="canvas"></canvas>
+    <button class="btn" id="start-btn">Começar</button>
+  </div>
+  <div class="how-to-play">
+    <h2>Como jogar</h2>
+    <p>Um ponteiro roda à volta de cada parafuso. Clica (ou Espaço) quando estiver dentro da zona verde para apertar. Aperta os 5 parafusos o mais rápido possível para trocar o pneu.</p>
+  </div>
+</main>
+<script src="script.js"></script>
+</body>
+</html>

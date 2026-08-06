@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="pt-PT">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Truck Wash Tycoon — JogaZone</title>
+<link rel="icon" href="../../assets/icons/favicon.svg" type="image/svg+xml">
+<link rel="stylesheet" href="../../css/style.css">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<header class="site-header"><div class="container"><a class="logo" href="../../index.html"><span class="mark">🎮</span>Joga<span class="tail">Zone</span></a></div></header>
+<main class="container">
+  <div class="game-page-header">
+    <a class="back-link" href="../../index.html">&larr; Todos os jogos</a>
+    <h1>Truck Wash Tycoon</h1>
+  </div>
+  <div class="game-stage">
+    <div class="game-hud">
+      <div>Dinheiro: <strong id="money">0</strong>€</div>
+      <div>Por clique: <strong id="click-power">1</strong>€</div>
+      <div>Por segundo: <strong id="per-sec">0</strong>€</div>
+    </div>
+    <button id="wash-truck" aria-label="Lavar camião">🚚💦</button>
+    <div id="shop">
+      <button class="shop-item btn secondary" id="buy-brush">Escova nova — <span id="cost-brush">10</span>€ (+1€/clique)</button>
+      <button class="shop-item btn secondary" id="buy-jet">Jato de água — <span id="cost-jet">50</span>€ (+1€/seg)</button>
+      <button class="shop-item btn secondary" id="buy-staff">Contratar funcionário — <span id="cost-staff">200</span>€ (+5€/seg)</button>
+    </div>
+  </div>
+  <div class="how-to-play">
+    <h2>Como jogar</h2>
+    <p>Clica no camião para o lavar e ganhar dinheiro. Usa o dinheiro para comprar melhorias que aumentam o valor de cada lavagem ou geram rendimento automático por segundo.</p>
+  </div>
+</main>
+<script src="script.js"></script>
+</body>
+</html>

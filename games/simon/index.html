@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="pt-PT">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Sequência de Cores — JogaZone</title>
+<link rel="icon" href="../../assets/icons/favicon.svg" type="image/svg+xml">
+<link rel="stylesheet" href="../../css/style.css">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<header class="site-header"><div class="container"><a class="logo" href="../../index.html"><span class="mark">🎮</span>Joga<span class="tail">Zone</span></a></div></header>
+<main class="container">
+  <div class="game-page-header">
+    <a class="back-link" href="../../index.html">&larr; Todos os jogos</a>
+    <h1>Sequência de Cores</h1>
+  </div>
+  <div class="game-stage">
+    <div class="game-hud">
+      <div>Ronda: <strong id="round">0</strong></div>
+      <div>Melhor: <strong id="best">0</strong></div>
+    </div>
+    <div id="status">Clica em Começar</div>
+    <div id="pad">
+      <button class="pad-btn" data-color="0" style="--c:#ff5d73"></button>
+      <button class="pad-btn" data-color="1" style="--c:#5da9ff"></button>
+      <button class="pad-btn" data-color="2" style="--c:#7ee8b5"></button>
+      <button class="pad-btn" data-color="3" style="--c:#ffd166"></button>
+    </div>
+    <button class="btn" id="start-btn">Começar</button>
+  </div>
+  <div class="how-to-play">
+    <h2>Como jogar</h2>
+    <p>Observa a sequência de cores que acende e repete-a clicando pela mesma ordem. A cada ronda a sequência cresce mais uma cor.</p>
+  </div>
+</main>
+<script src="script.js"></script>
+</body>
+</html>

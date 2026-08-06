@@ -122,6 +122,123 @@ const GAMES = [
     icon: "dot"
   },
   {
+    id: "simon",
+    title: "Sequência de Cores",
+    category: "Puzzle",
+    desc: "Repete a sequência de cores que se acende. Cresce a cada ronda.",
+    path: "games/simon/index.html",
+    colors: ["#ff5d73", "#7ee8b5"],
+    icon: "grid"
+  },
+  {
+    id: "truck-parking",
+    title: "Truck Parking Pro",
+    category: "Camiões",
+    desc: "Manobra o camião e estaciona na zona marcada sem tocar nos cones.",
+    path: "games/truck-parking/index.html",
+    colors: ["#2a2f45", "#7ee8b5"],
+    icon: "car"
+  },
+  {
+    id: "highway-escape",
+    title: "Highway Escape",
+    category: "Camiões",
+    desc: "Foge da polícia desviando-te do trânsito nas três faixas.",
+    path: "games/highway-escape/index.html",
+    colors: ["#1c2138", "#ffd166"],
+    icon: "car"
+  },
+  {
+    id: "fuel-rush",
+    title: "Fuel Rush",
+    category: "Camiões",
+    desc: "Gere o combustível e chega ao destino sem ficares parado na estrada.",
+    path: "games/fuel-rush/index.html",
+    colors: ["#1c2138", "#5da9ff"],
+    icon: "bolt"
+  },
+  {
+    id: "truck-jump",
+    title: "Truck Jump",
+    category: "Camiões",
+    desc: "Acerta na potência certa e salta o mais longe possível na rampa.",
+    path: "games/truck-jump/index.html",
+    colors: ["#2a2f6a", "#ffd166"],
+    icon: "target"
+  },
+  {
+    id: "truck-memoria",
+    title: "Truck Memory",
+    category: "Camiões",
+    desc: "Encontra os pares de veículos de transporte no menor número de jogadas.",
+    path: "games/truck-memoria/index.html",
+    colors: ["#ff9a5a", "#ffb199"],
+    icon: "diamond"
+  },
+  {
+    id: "truck-quiz",
+    title: "Truck Quiz",
+    category: "Camiões",
+    desc: "Perguntas sobre camiões, estrada e transporte de mercadorias.",
+    path: "games/truck-quiz/index.html",
+    colors: ["#5da9ff", "#c58bff"],
+    icon: "letter"
+  },
+  {
+    id: "parking-jam",
+    title: "Parking Jam",
+    category: "Camiões",
+    desc: "Desliza os veículos para abrires caminho ao camião vermelho.",
+    path: "games/parking-jam/index.html",
+    colors: ["#7ee8b5", "#5da9ff"],
+    icon: "squares"
+  },
+  {
+    id: "container-stack",
+    title: "Container Stack",
+    category: "Camiões",
+    desc: "Larga os contentores no momento certo e constrói a torre mais alta.",
+    path: "games/container-stack/index.html",
+    colors: ["#2a2f6a", "#c58bff"],
+    icon: "blocks"
+  },
+  {
+    id: "wheel-change",
+    title: "Wheel Change",
+    category: "Camiões",
+    desc: "Aperta os 5 parafusos no tempo certo e troca o pneu o mais rápido possível.",
+    path: "games/wheel-change/index.html",
+    colors: ["#1c2138", "#ff5d73"],
+    icon: "target"
+  },
+  {
+    id: "road-repair",
+    title: "Road Repair",
+    category: "Camiões",
+    desc: "Repara os buracos na estrada antes que se multipliquem.",
+    path: "games/road-repair/index.html",
+    colors: ["#2a2f45", "#ffd166"],
+    icon: "brick"
+  },
+  {
+    id: "truck-wash",
+    title: "Truck Wash Tycoon",
+    category: "Camiões",
+    desc: "Lava camiões, ganha dinheiro e investe em melhorias.",
+    path: "games/truck-wash/index.html",
+    colors: ["#5da9ff", "#7ee8b5"],
+    icon: "bolt"
+  },
+  {
+    id: "convoy",
+    title: "Convoy Commander",
+    category: "Camiões",
+    desc: "Guia um comboio de 3 camiões em fila, evitando os obstáculos.",
+    path: "games/convoy/index.html",
+    colors: ["#1c2138", "#ff9a5a"],
+    icon: "car"
+  },
+  {
     id: "nebulosa",
     title: "Nebulosa",
     category: "Ação",
@@ -132,7 +249,7 @@ const GAMES = [
   }
 ];
 
-const CATEGORIES = ["Todos", "Puzzle", "Arcade", "Ação", "Tabuleiro", "Palavras"];
+const CATEGORIES = ["Todos", "Puzzle", "Arcade", "Ação", "Tabuleiro", "Palavras", "Camiões"];
 
 // Ícones simples desenhados em SVG (originais, sem dependências externas).
 const ICON_PATHS = {

@@ -1,0 +1,22 @@
+#status { font-weight: 700; color: var(--text-dim); }
+
+#pad {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: 1fr 1fr;
+  gap: 10px;
+  width: 260px;
+  height: 260px;
+}
+
+.pad-btn {
+  background: var(--c);
+  border: none;
+  border-radius: 16px;
+  opacity: .45;
+  cursor: pointer;
+  transition: opacity .1s, transform .1s;
+}
+
+.pad-btn:hover { opacity: .65; }
+.pad-btn.lit { opacity: 1; transform: scale(.97); box-shadow: 0 0 30px var(--c); }
