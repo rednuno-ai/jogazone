@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="pt-PT">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Teste de Digitação — JogaZone</title>
+<link rel="icon" href="../../assets/icons/favicon.svg" type="image/svg+xml">
+<link rel="stylesheet" href="../../css/style.css">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<header class="site-header"><div class="container"><a class="logo" href="../../index.html"><span class="mark">🎮</span>Joga<span class="tail">Zone</span></a></div></header>
+<main class="container">
+  <div class="game-page-header">
+    <a class="back-link" href="../../index.html">&larr; Todos os jogos</a>
+    <h1>Teste de Digitação</h1>
+  </div>
+  <div class="game-stage">
+    <div class="game-hud">
+      <div>PPM: <strong id="wpm">0</strong></div>
+      <div>Precisão: <strong id="accuracy">100</strong>%</div>
+      <div>Melhor PPM: <strong id="best">0</strong></div>
+    </div>
+    <div id="target-text" class="type-target"></div>
+    <textarea id="type-input" class="type-input" rows="3" placeholder="Começa a escrever aqui assim que estiveres pronto..." autocomplete="off" spellcheck="false"></textarea>
+    <button class="btn secondary" id="restart-btn">Novo texto</button>
+  </div>
+  <div class="how-to-play">
+    <h2>Como jogar</h2>
+    <p>Escreve o texto apresentado o mais rápido e certo possível. O cronómetro começa quando escreveres a primeira letra e para quando terminares o texto.</p>
+  </div>
+</main>
+<script src="script.js"></script>
+</body>
+</html>

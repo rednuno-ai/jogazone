@@ -453,6 +453,78 @@ const GAMES = [
     path: "games/quinta3d/index.html",
     colors: ["#8fd0f0", "#5fae52"],
     icon: "orb"
+  },
+  {
+    id: "sudoku",
+    title: "Sudoku 6x6",
+    category: "Puzzle",
+    desc: "Preenche a grelha 6x6 sem repetir números na linha, coluna ou caixa.",
+    path: "games/sudoku/index.html",
+    colors: ["#5da9ff", "#7ee8b5"],
+    icon: "grid"
+  },
+  {
+    id: "damas",
+    title: "Damas",
+    category: "Tabuleiro",
+    desc: "O clássico jogo de damas contra o computador, com captura e promoção a dama.",
+    path: "games/damas/index.html",
+    colors: ["#6b4a2a", "#d8c7a1"],
+    icon: "grid"
+  },
+  {
+    id: "ar-hoquei",
+    title: "Ar Hóquei",
+    category: "Desporto",
+    desc: "Defende a baliza e marca golos contra o computador com o rato.",
+    path: "games/ar-hoquei/index.html",
+    colors: ["#0f2a3a", "#5da9ff"],
+    icon: "target"
+  },
+  {
+    id: "dados-sorte",
+    title: "Dados da Sorte",
+    category: "Tabuleiro",
+    desc: "Lança os dados e marca pontos nas categorias certas ao longo de 9 rondas.",
+    path: "games/dados-sorte/index.html",
+    colors: ["#ffd166", "#ff9a5a"],
+    icon: "squares"
+  },
+  {
+    id: "digitacao",
+    title: "Teste de Digitação",
+    category: "Palavras",
+    desc: "Escreve o texto o mais rápido e certo possível e descobre as tuas palavras por minuto.",
+    path: "games/digitacao/index.html",
+    colors: ["#5da9ff", "#c58bff"],
+    icon: "letter"
+  },
+  {
+    id: "sequencia-numerica",
+    title: "Sequência Numérica",
+    category: "Puzzle",
+    desc: "Memoriza e repete sequências de números cada vez mais longas.",
+    path: "games/sequencia-numerica/index.html",
+    colors: ["#5da9ff", "#ff5d73"],
+    icon: "grid"
+  },
+  {
+    id: "tyre-dodge",
+    title: "Tyre Dodge",
+    category: "Camiões",
+    desc: "Desvia-te dos pneus soltos na estrada nas três faixas.",
+    path: "games/tyre-dodge/index.html",
+    colors: ["#1c2138", "#3a3a3a"],
+    icon: "car"
+  },
+  {
+    id: "snow-plow",
+    title: "Snow Plow Challenge",
+    category: "Camiões",
+    desc: "Limpa a neve da estrada antes que a tempestade te apanhe.",
+    path: "games/snow-plow/index.html",
+    colors: ["#c7d7e0", "#5da9ff"],
+    icon: "car"
   }
 ];
 
