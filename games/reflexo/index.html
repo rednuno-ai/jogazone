@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="pt-PT">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Reflexo Rápido — JogaZone</title>
+<link rel="icon" href="../../assets/icons/favicon.svg" type="image/svg+xml">
+<link rel="stylesheet" href="../../css/style.css">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<header class="site-header">
+  <div class="container">
+    <a class="logo" href="../../index.html"><span class="mark">🎮</span>Joga<span class="tail">Zone</span></a>
+  </div>
+</header>
+
+<main class="container">
+  <div class="game-page-header">
+    <a class="back-link" href="../../index.html">&larr; Todos os jogos</a>
+    <h1>Reflexo Rápido</h1>
+  </div>
+
+  <div class="game-stage">
+    <div class="game-hud">
+      <div>Pontuação: <strong id="score">0</strong></div>
+      <div>Tempo: <strong id="timer">30</strong>s</div>
+      <div>Melhor: <strong id="best">0</strong></div>
+    </div>
+    <div id="arena" class="reflex-arena">
+      <div id="startOverlay" class="reflex-overlay">
+        <button class="btn" id="start-btn">Começar</button>
+      </div>
+    </div>
+  </div>
+
+  <div class="how-to-play">
+    <h2>Como jogar</h2>
+    <p>Clica nos alvos assim que eles aparecerem. Tens 30 segundos — quanto mais rápido clicares, mais pontos ganhas.</p>
+  </div>
+</main>
+
+<script src="script.js"></script>
+</body>
+</html>

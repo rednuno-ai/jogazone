@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="pt-PT">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Meteoros — JogaZone</title>
+<link rel="icon" href="../../assets/icons/favicon.svg" type="image/svg+xml">
+<link rel="stylesheet" href="../../css/style.css">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<header class="site-header">
+  <div class="container">
+    <a class="logo" href="../../index.html"><span class="mark">🎮</span>Joga<span class="tail">Zone</span></a>
+  </div>
+</header>
+
+<main class="container">
+  <div class="game-page-header">
+    <a class="back-link" href="../../index.html">&larr; Todos os jogos</a>
+    <h1>Meteoros</h1>
+  </div>
+
+  <div class="game-stage">
+    <div id="meteoros"></div>
+  </div>
+
+  <div class="how-to-play">
+    <h2>Como jogar</h2>
+    <p>Usa <strong>◀</strong> / <strong>▶</strong> (ou A/D) para rodar a nave, <strong>▲</strong> (ou W) para acelerar e <strong>Espaço</strong> para disparar. Destrói os meteoros — os grandes partem-se em pedaços mais pequenos. Evita colisões, tens 3 vidas.</p>
+    <p style="margin-top:12px;opacity:.7;font-size:12px;">
+      Baseado no motor open-source <a href="https://github.com/jsocol/asteroids" target="_blank" rel="noopener">asteroids</a> de James Socol, licenciado sob a <a href="LICENSE-jsocol.txt" target="_blank" rel="noopener">licença BSD-2-Clause</a>. Renomeado e traduzido para o JogaZone.
+    </p>
+  </div>
+</main>
+
+<script src="js/meteoros.js"></script>
+<script>
+  new Meteoros(document.getElementById('meteoros'));
+</script>
+</body>
+</html>

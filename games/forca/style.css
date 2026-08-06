@@ -1,0 +1,49 @@
+#hangman-svg {
+  background: var(--bg-alt);
+  border-radius: 12px;
+}
+
+#hangman-svg line, #hangman-svg circle {
+  stroke: var(--text);
+  stroke-width: 4;
+  stroke-linecap: round;
+  fill: none;
+}
+
+.forca-word {
+  display: flex;
+  gap: 8px;
+  font-size: 28px;
+  font-weight: 800;
+  letter-spacing: 2px;
+}
+
+.forca-word .letter-slot {
+  min-width: 24px;
+  text-align: center;
+  border-bottom: 3px solid var(--text-dim);
+}
+
+.forca-keyboard {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 6px;
+  max-width: 480px;
+  justify-content: center;
+}
+
+.forca-key {
+  width: 34px;
+  height: 38px;
+  border-radius: 8px;
+  border: 1px solid rgba(255,255,255,.1);
+  background: var(--bg-alt);
+  color: var(--text);
+  font-weight: 700;
+  cursor: pointer;
+}
+
+.forca-key:hover:not(:disabled) { background: var(--card-hover); }
+.forca-key:disabled { opacity: .35; cursor: default; }
+.forca-key.correct { background: rgba(126,232,181,.25); border-color: var(--accent-3); }
+.forca-key.wrong { background: rgba(255,93,115,.25); border-color: var(--accent); }

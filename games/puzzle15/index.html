@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="pt-PT">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Puzzle Deslizante — JogaZone</title>
+<link rel="icon" href="../../assets/icons/favicon.svg" type="image/svg+xml">
+<link rel="stylesheet" href="../../css/style.css">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<header class="site-header">
+  <div class="container">
+    <a class="logo" href="../../index.html"><span class="mark">🎮</span>Joga<span class="tail">Zone</span></a>
+  </div>
+</header>
+
+<main class="container">
+  <div class="game-page-header">
+    <a class="back-link" href="../../index.html">&larr; Todos os jogos</a>
+    <h1>Puzzle Deslizante</h1>
+  </div>
+
+  <div class="game-stage">
+    <div class="game-hud">
+      <div>Movimentos: <strong id="moves">0</strong></div>
+      <div>Melhor: <strong id="best">—</strong></div>
+    </div>
+    <div id="board" class="slide-board"></div>
+    <button class="btn" id="restart-btn">Baralhar de novo</button>
+  </div>
+
+  <div class="how-to-play">
+    <h2>Como jogar</h2>
+    <p>Clica numa peça adjacente ao espaço vazio para a deslizar. Ordena os números de 1 a 15, da esquerda para a direita e de cima para baixo.</p>
+  </div>
+</main>
+
+<script src="script.js"></script>
+</body>
+</html>

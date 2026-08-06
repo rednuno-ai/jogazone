@@ -1,0 +1,33 @@
+.galo-status {
+  font-size: 14px;
+  color: var(--text-dim);
+  font-weight: 600;
+}
+
+.galo-board {
+  display: grid;
+  grid-template-columns: repeat(3, 92px);
+  grid-template-rows: repeat(3, 92px);
+  gap: 8px;
+}
+
+.galo-cell {
+  background: var(--bg-alt);
+  border-radius: 12px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 40px;
+  font-weight: 800;
+  cursor: pointer;
+  border: 1px solid rgba(255,255,255,.06);
+}
+
+.galo-cell:hover { background: var(--card-hover); }
+.galo-cell.x { color: var(--accent-2); }
+.galo-cell.o { color: var(--accent); }
+.galo-cell.win { background: rgba(126,232,181,.18); border-color: var(--accent-3); }
+
+@media (max-width: 420px) {
+  .galo-board { grid-template-columns: repeat(3, 76px); grid-template-rows: repeat(3, 76px); }
+}

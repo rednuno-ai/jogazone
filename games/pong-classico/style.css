@@ -1,0 +1,19 @@
+#game {
+  background: black;
+  display: block;
+  width: 480px;
+  height: 360px;
+  max-width: 100%;
+  border-radius: 8px;
+  border: 1px solid rgba(255,255,255,.08);
+  cursor: none;
+}
+
+#unsupported {
+  color: var(--text);
+  padding: 2em;
+}
+
+@media (min-width: 720px) {
+  #game { width: 560px; height: 420px; }
+}

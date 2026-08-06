@@ -1,0 +1,32 @@
+canvas {
+  background: var(--bg-alt);
+  border-radius: 12px;
+  max-width: 100%;
+  border: 1px solid rgba(255,255,255,.08);
+}
+
+.dpad {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 6px;
+}
+
+.dpad div { display: flex; gap: 6px; }
+
+.dpad button {
+  width: 44px;
+  height: 44px;
+  border-radius: 10px;
+  border: 1px solid rgba(255,255,255,.1);
+  background: var(--bg-alt);
+  color: var(--text);
+  font-size: 16px;
+  cursor: pointer;
+}
+
+.dpad button:active { background: var(--card-hover); }
+
+@media (min-width: 720px) {
+  .dpad { display: none; }
+}

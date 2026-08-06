@@ -1,0 +1,22 @@
+#meteoros {
+  display: inline-block;
+}
+
+#meteoros canvas {
+  display: block;
+  background: #05060c;
+  border: 1px solid rgba(255,255,255,.1);
+  border-radius: 8px;
+  max-width: 100%;
+}
+
+.meteoros-hud {
+  display: flex;
+  gap: 20px;
+  justify-content: center;
+  padding: 10px 0;
+  font-size: 13px;
+  font-weight: 700;
+  color: var(--text-dim);
+  letter-spacing: .03em;
+}

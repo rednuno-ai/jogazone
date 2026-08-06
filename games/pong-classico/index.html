@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="pt-PT">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Pong Clássico — JogaZone</title>
+<link rel="icon" href="../../assets/icons/favicon.svg" type="image/svg+xml">
+<link rel="stylesheet" href="../../css/style.css">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<header class="site-header">
+  <div class="container">
+    <a class="logo" href="../../index.html"><span class="mark">🎮</span>Joga<span class="tail">Zone</span></a>
+  </div>
+</header>
+
+<main class="container">
+  <div class="game-page-header">
+    <a class="back-link" href="../../index.html">&larr; Todos os jogos</a>
+    <h1>Pong Clássico</h1>
+  </div>
+
+  <div class="game-stage">
+    <div class="game-hud">
+      <div>Prime <strong>1</strong> — 1 jogador (vs. computador)</div>
+      <div>Prime <strong>2</strong> — 2 jogadores</div>
+    </div>
+    <canvas id="game">
+      <div id="unsupported">O teu navegador não suporta o elemento canvas.</div>
+    </canvas>
+    <div class="game-hud">
+      <div>Jogador 1: <strong>Q</strong> / <strong>A</strong></div>
+      <div>Jogador 2: <strong>P</strong> / <strong>L</strong></div>
+      <div><strong>Esc</strong> termina o jogo</div>
+    </div>
+  </div>
+
+  <div class="how-to-play">
+    <h2>Como jogar</h2>
+    <p>Prime <strong>1</strong> para jogar sozinho contra o computador, ou <strong>2</strong> para dois jogadores. O jogador 1 move-se com <strong>Q</strong> (cima) e <strong>A</strong> (baixo); o jogador 2 com <strong>P</strong> (cima) e <strong>L</strong> (baixo). Ganha quem chegar primeiro a 9 pontos.</p>
+    <p style="margin-top:12px;opacity:.7;font-size:12px;">
+      Este jogo usa o motor open-source <a href="https://github.com/jakesgordon/javascript-pong" target="_blank" rel="noopener">javascript-pong</a> de Jake Gordon, licenciado sob a <a href="LICENSE-jakesgordon.txt" target="_blank" rel="noopener">licença MIT</a>.
+    </p>
+  </div>
+</main>
+
+<script src="js/game.js"></script>
+<script src="js/pong.js"></script>
+<script>
+  Game.ready(function() {
+    Game.start('game', Pong, { sound: true, stats: false, footprints: false, predictions: false });
+  });
+</script>
+</body>
+</html>

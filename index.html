@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="pt-PT">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>JogaZone — Mini-jogos grátis no browser</title>
+<meta name="description" content="Portal de mini-jogos originais e gratuitos: puzzle, arcade, ação e tabuleiro. Joga diretamente no browser, sem instalar nada.">
+<link rel="icon" href="assets/icons/favicon.svg" type="image/svg+xml">
+<link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+<header class="site-header">
+  <div class="container">
+    <a class="logo" href="index.html">
+      <span class="mark">🎮</span>
+      Joga<span class="tail">Zone</span>
+    </a>
+    <div class="search-box">
+      <input id="search-input" type="text" placeholder="Procurar jogos...">
+    </div>
+    <nav class="primary-nav">
+      <a href="index.html" class="active">Início</a>
+      <a href="#jogos">Todos os jogos</a>
+      <a href="#populares">Populares</a>
+    </nav>
+  </div>
+</header>
+
+<main class="container">
+  <section class="hero">
+    <h1>Mini-jogos grátis, direto no browser</h1>
+    <p>Uma coleção de jogos originais, leves e sem downloads. Escolhe uma categoria ou pesquisa o teu preferido — é só clicar e jogar.</p>
+    <div class="hero-stats">
+      <div><strong id="game-count">0</strong>jogos disponíveis</div>
+      <div><strong>100%</strong>grátis</div>
+      <div><strong>0</strong>instalações necessárias</div>
+    </div>
+  </section>
+
+  <div class="chips" id="chips"></div>
+
+  <div class="section-title" id="jogos">
+    <h2>Todos os jogos</h2>
+    <span>Clica num jogo para começar a jogar</span>
+  </div>
+  <div class="game-grid" id="game-grid"></div>
+</main>
+
+<footer class="site-footer">
+  <div class="container foot-grid">
+    <div>
+      <a class="logo" href="index.html"><span class="mark">🎮</span>JogaZone</a>
+      <p style="margin-top:10px;max-width:260px;">Jogos originais, criados de raiz, para jogar grátis no browser.</p>
+    </div>
+    <div>
+      <h4>Categorias</h4>
+      <ul>
+        <li><a href="#jogos">Puzzle</a></li>
+        <li><a href="#jogos">Arcade</a></li>
+        <li><a href="#jogos">Ação</a></li>
+        <li><a href="#jogos">Tabuleiro</a></li>
+        <li><a href="#jogos">Palavras</a></li>
+      </ul>
+    </div>
+    <div>
+      <h4>Sobre</h4>
+      <ul>
+        <li><a href="index.html">JogaZone</a></li>
+        <li>Jogos originais e código aberto licenciado (MIT)</li>
+      </ul>
+    </div>
+    <div>
+      <h4>Créditos</h4>
+      <ul>
+        <li>Pong Clássico e Blocos em Queda: motor de <a href="https://jakesgordon.com/" target="_blank" rel="noopener">Jake Gordon</a>, licença MIT</li>
+        <li>Meteoros: motor de <a href="https://github.com/jsocol/asteroids" target="_blank" rel="noopener">James Socol</a>, licença BSD-2-Clause</li>
+        <li>Restantes jogos: criações originais do JogaZone</li>
+      </ul>
+    </div>
+  </div>
+  <div class="container" style="margin-top:24px;opacity:.6;">© 2026 JogaZone.</div>
+</footer>
+
+<script src="js/games-data.js"></script>
+<script src="js/main.js"></script>
+</body>
+</html>

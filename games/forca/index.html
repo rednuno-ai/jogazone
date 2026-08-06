@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="pt-PT">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Forca de Palavras — JogaZone</title>
+<link rel="icon" href="../../assets/icons/favicon.svg" type="image/svg+xml">
+<link rel="stylesheet" href="../../css/style.css">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<header class="site-header">
+  <div class="container">
+    <a class="logo" href="../../index.html"><span class="mark">🎮</span>Joga<span class="tail">Zone</span></a>
+  </div>
+</header>
+
+<main class="container">
+  <div class="game-page-header">
+    <a class="back-link" href="../../index.html">&larr; Todos os jogos</a>
+    <h1>Forca de Palavras</h1>
+  </div>
+
+  <div class="game-stage">
+    <div class="game-hud">
+      <div>Categoria: <strong id="category">—</strong></div>
+      <div>Erros: <strong id="errors">0</strong> / 6</div>
+      <div>Vitórias: <strong id="wins">0</strong></div>
+    </div>
+    <svg id="hangman-svg" viewBox="0 0 140 160" width="140" height="160"></svg>
+    <div id="word" class="forca-word"></div>
+    <div id="keyboard" class="forca-keyboard"></div>
+    <button class="btn" id="restart-btn">Nova palavra</button>
+  </div>
+
+  <div class="how-to-play">
+    <h2>Como jogar</h2>
+    <p>Clica nas letras para tentar adivinhar a palavra escondida. Tens 6 erros permitidos antes do jogo terminar.</p>
+  </div>
+</main>
+
+<script src="script.js"></script>
+</body>
+</html>

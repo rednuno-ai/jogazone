@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="pt-PT">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Blocos em Queda — JogaZone</title>
+<link rel="icon" href="../../assets/icons/favicon.svg" type="image/svg+xml">
+<link rel="stylesheet" href="../../css/style.css">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<header class="site-header">
+  <div class="container">
+    <a class="logo" href="../../index.html"><span class="mark">🎮</span>Joga<span class="tail">Zone</span></a>
+  </div>
+</header>
+
+<main class="container">
+  <div class="game-page-header">
+    <a class="back-link" href="../../index.html">&larr; Todos os jogos</a>
+    <h1>Blocos em Queda</h1>
+  </div>
+
+  <div class="game-stage">
+    <div id="blocos-layout">
+      <canvas id="canvas">
+        O teu navegador não suporta o elemento canvas.
+      </canvas>
+      <div id="menu">
+        <p id="start"><a href="javascript:play();">Prime Espaço<br>para jogar</a></p>
+        <canvas id="upcoming"></canvas>
+        <p>pontos <span id="score">00000</span></p>
+        <p>linhas <span id="rows">0</span></p>
+      </div>
+    </div>
+  </div>
+
+  <div class="how-to-play">
+    <h2>Como jogar</h2>
+    <p>Prime <strong>Espaço</strong> para começar. Usa as setas <strong>◀</strong> <strong>▶</strong> para mover, <strong>▲</strong> para rodar e <strong>▼</strong> para descer mais depressa. Completa linhas horizontais para as remover e ganhar pontos.</p>
+    <p style="margin-top:12px;opacity:.7;font-size:12px;">
+      Baseado no motor open-source <a href="https://github.com/jakesgordon/javascript-tetris" target="_blank" rel="noopener">javascript-tetris</a> de Jake Gordon, licenciado sob a <a href="LICENSE-jakesgordon.txt" target="_blank" rel="noopener">licença MIT</a>. Interface reestilizada para o JogaZone.
+    </p>
+  </div>
+</main>
+
+<script src="js/blocos.js"></script>
+</body>
+</html>
