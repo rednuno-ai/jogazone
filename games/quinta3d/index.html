@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="pt-PT">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Quinta Feliz 3D — JogaZone</title>
+<link rel="icon" href="../../assets/icons/favicon.svg" type="image/svg+xml">
+<link rel="stylesheet" href="../../css/style.css">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<header class="site-header"><div class="container"><a class="logo" href="../../index.html"><span class="mark">🎮</span>Joga<span class="tail">Zone</span></a></div></header>
+<main class="container">
+  <div class="game-page-header">
+    <a class="back-link" href="../../index.html">&larr; Todos os jogos</a>
+    <h1>Quinta Feliz 3D</h1>
+  </div>
+  <div class="game-stage">
+    <div class="game-hud">
+      <div>💰 Moedas: <strong id="coins">40</strong></div>
+      <div>🌾 Colheitas: <strong id="harvests">0</strong></div>
+    </div>
+    <div id="scene-wrap"><canvas id="canvas"></canvas></div>
+    <div id="status" class="game-hud">Clica num canteiro vazio para plantares (5 moedas).</div>
+    <div id="shop">
+      <button class="btn secondary" id="seed-trigo">🌾 Trigo (5💰, rápido)</button>
+      <button class="btn secondary" id="seed-milho">🌽 Milho (12💰, lucro maior)</button>
+    </div>
+  </div>
+  <div class="how-to-play">
+    <h2>Como jogar</h2>
+    <p>Escolhe uma semente e clica num canteiro castanho vazio para plantares. As plantas crescem sozinhas — quando ficarem verdes e altas, clica para colheres e ganhares moedas. Usa as moedas para plantar mais. Jogo original do JogaZone, sem ligação a marcas registadas.</p>
+  </div>
+</main>
+<script src="https://cdn.jsdelivr.net/npm/three@0.160.0/build/three.min.js"></script>
+<script src="script.js"></script>
+</body>
+</html>

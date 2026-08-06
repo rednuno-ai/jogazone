@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="pt-PT">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Aventura na Vila 3D — JogaZone</title>
+<link rel="icon" href="../../assets/icons/favicon.svg" type="image/svg+xml">
+<link rel="stylesheet" href="../../css/style.css">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<header class="site-header"><div class="container"><a class="logo" href="../../index.html"><span class="mark">🎮</span>Joga<span class="tail">Zone</span></a></div></header>
+<main class="container">
+  <div class="game-page-header">
+    <a class="back-link" href="../../index.html">&larr; Todos os jogos</a>
+    <h1>Aventura na Vila 3D</h1>
+  </div>
+  <div class="game-stage">
+    <div class="game-hud">
+      <div>Moedas: <strong id="coins">0</strong> / <span id="total-coins">12</span></div>
+      <div>Tempo: <strong id="timer">60</strong>s</div>
+      <div id="status">Recolhe todas as moedas e foge dos guardas!</div>
+    </div>
+    <div id="scene-wrap"><canvas id="canvas"></canvas></div>
+    <button class="btn" id="restart-btn">Recomeçar</button>
+  </div>
+  <div class="how-to-play">
+    <h2>Como jogar</h2>
+    <p>Usa as setas do teclado para explorares a vila e apanhares as 12 moedas espalhadas antes que o tempo acabe. Evita os guardas em patrulha — se te apanharem, voltas ao ponto de partida. Personagem e vila totalmente originais do JogaZone.</p>
+  </div>
+</main>
+<script src="https://cdn.jsdelivr.net/npm/three@0.160.0/build/three.min.js"></script>
+<script src="script.js"></script>
+</body>
+</html>

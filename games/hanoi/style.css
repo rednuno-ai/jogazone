@@ -1,0 +1,52 @@
+.hanoi-towers {
+  display: flex;
+  gap: 30px;
+  align-items: flex-end;
+  height: 220px;
+}
+
+.hanoi-tower {
+  width: 130px;
+  height: 220px;
+  position: relative;
+  display: flex;
+  flex-direction: column-reverse;
+  align-items: center;
+  cursor: pointer;
+  padding-bottom: 10px;
+}
+
+.hanoi-tower::before {
+  content: "";
+  position: absolute;
+  bottom: 10px;
+  left: 50%;
+  width: 8px;
+  height: 190px;
+  background: #6b5537;
+  border-radius: 4px;
+  transform: translateX(-50%);
+  z-index: 0;
+}
+
+.hanoi-tower::after {
+  content: "";
+  position: absolute;
+  bottom: 4px;
+  left: 10px;
+  right: 10px;
+  height: 10px;
+  background: #4a3a24;
+  border-radius: 4px;
+  z-index: 0;
+}
+
+.hanoi-tower.selected { background: rgba(255,255,255,.05); border-radius: 12px; }
+
+.hanoi-disk {
+  height: 22px;
+  border-radius: 6px;
+  margin-bottom: 3px;
+  z-index: 1;
+  box-shadow: 0 2px 4px rgba(0,0,0,.3);
+}

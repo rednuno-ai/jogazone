@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="pt-PT">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Roda da Sorte 3D — JogaZone</title>
+<link rel="icon" href="../../assets/icons/favicon.svg" type="image/svg+xml">
+<link rel="stylesheet" href="../../css/style.css">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<header class="site-header"><div class="container"><a class="logo" href="../../index.html"><span class="mark">🎮</span>Joga<span class="tail">Zone</span></a></div></header>
+<main class="container">
+  <div class="game-page-header">
+    <a class="back-link" href="../../index.html">&larr; Todos os jogos</a>
+    <h1>Roda da Sorte 3D</h1>
+  </div>
+  <div class="game-stage">
+    <div class="game-hud">
+      <div>Ronda: <strong id="round">1</strong> / 10</div>
+      <div>Pontos: <strong id="score">0</strong></div>
+      <div>Melhor: <strong id="best">0</strong></div>
+    </div>
+    <div id="scene-wrap"><canvas id="canvas"></canvas></div>
+    <div id="status" class="game-hud">Gira a roda para começares!</div>
+    <button class="btn" id="spin-btn">Girar a roda</button>
+  </div>
+  <div class="how-to-play">
+    <h2>Como jogar</h2>
+    <p>Gira a roda 3D para avançares a tua peça no tabuleiro circular. Cada casa dá ou tira pontos — a casa dourada "Curinga" duplica a tua pontuação atual! Joga 10 rondas e tenta bater o teu melhor resultado.</p>
+    <p style="margin-top:12px;opacity:.7;font-size:12px;">Jogo original do JogaZone. Renderizado com <a href="https://threejs.org/" target="_blank" rel="noopener">Three.js</a> (licença MIT).</p>
+  </div>
+</main>
+<script src="https://cdn.jsdelivr.net/npm/three@0.160.0/build/three.min.js"></script>
+<script src="script.js"></script>
+</body>
+</html>

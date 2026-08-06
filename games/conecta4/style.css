@@ -1,0 +1,24 @@
+.c4-board {
+  display: grid;
+  grid-template-columns: repeat(7, 46px);
+  grid-template-rows: repeat(6, 46px);
+  gap: 6px;
+  background: var(--bg-alt);
+  padding: 10px;
+  border-radius: 12px;
+}
+
+.c4-cell {
+  border-radius: 50%;
+  background: #0f1220;
+  cursor: pointer;
+  transition: background .1s;
+}
+
+.c4-cell.p1 { background: var(--accent); }
+.c4-cell.p2 { background: var(--accent-4); }
+.c4-col:hover .c4-cell.empty { background: rgba(255,255,255,.12); }
+
+@media (max-width: 420px) {
+  .c4-board { grid-template-columns: repeat(7, 36px); grid-template-rows: repeat(6, 36px); }
+}

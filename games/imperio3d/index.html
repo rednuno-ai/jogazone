@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="pt-PT">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Império Imobiliário 3D — JogaZone</title>
+<link rel="icon" href="../../assets/icons/favicon.svg" type="image/svg+xml">
+<link rel="stylesheet" href="../../css/style.css">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<header class="site-header"><div class="container"><a class="logo" href="../../index.html"><span class="mark">🎮</span>Joga<span class="tail">Zone</span></a></div></header>
+<main class="container">
+  <div class="game-page-header">
+    <a class="back-link" href="../../index.html">&larr; Todos os jogos</a>
+    <h1>Império Imobiliário 3D</h1>
+  </div>
+  <div class="game-stage">
+    <div class="game-hud">
+      <div>💰 Tu: <strong id="my-money">1500</strong>€</div>
+      <div>🤖 Rival: <strong id="ai-money">1500</strong>€</div>
+    </div>
+    <div id="scene-wrap"><canvas id="canvas"></canvas></div>
+    <div id="status" class="game-hud">A tua vez — lança o dado!</div>
+    <div id="action-box"></div>
+    <button class="btn" id="roll-btn">🎲 Lançar dado</button>
+  </div>
+  <div class="how-to-play">
+    <h2>Como jogar</h2>
+    <p>Lança o dado para avançares no tabuleiro. Compra terrenos livres, cobra renda a quem calhar nos teus, e cuidado com os impostos. Ganha quem não ficar sem dinheiro! Jogo original do JogaZone, sem qualquer ligação a marcas registadas.</p>
+  </div>
+</main>
+<script src="https://cdn.jsdelivr.net/npm/three@0.160.0/build/three.min.js"></script>
+<script src="script.js"></script>
+</body>
+</html>

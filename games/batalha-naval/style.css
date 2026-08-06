@@ -1,0 +1,29 @@
+.naval-board {
+  display: grid;
+  grid-template-columns: repeat(8, 42px);
+  grid-template-rows: repeat(8, 42px);
+  gap: 4px;
+  background: var(--bg-alt);
+  padding: 10px;
+  border-radius: 12px;
+}
+
+.naval-cell {
+  background: #1c3a5e;
+  border-radius: 6px;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 18px;
+  transition: background .1s;
+}
+
+.naval-cell:hover:not(.hit):not(.miss) { background: #234a75; }
+.naval-cell.hit { background: var(--accent); cursor: default; }
+.naval-cell.miss { background: #223050; cursor: default; }
+.naval-cell.sunk { background: #7a1f2b; }
+
+@media (max-width: 420px) {
+  .naval-board { grid-template-columns: repeat(8, 34px); grid-template-rows: repeat(8, 34px); }
+}

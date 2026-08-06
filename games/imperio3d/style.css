@@ -1,0 +1,32 @@
+#scene-wrap {
+  width: 100%;
+  max-width: 520px;
+  aspect-ratio: 1;
+  border-radius: 8px;
+  overflow: hidden;
+  border: 1px solid rgba(255,255,255,.1);
+  box-shadow: var(--shadow);
+}
+
+#canvas { display: block; width: 100%; height: 100%; }
+#status { color: var(--accent-4); font-weight: 600; text-align: center; }
+
+#action-box {
+  display: flex;
+  gap: 10px;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+#action-box button {
+  padding: 8px 16px;
+  border-radius: 999px;
+  border: 1px solid rgba(255,255,255,.15);
+  background: var(--bg-alt);
+  color: var(--text);
+  cursor: pointer;
+  font-weight: 600;
+  font-size: 13px;
+}
+
+#action-box button:hover { background: var(--card-hover); }

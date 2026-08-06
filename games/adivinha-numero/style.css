@@ -1,0 +1,24 @@
+.guess-hint {
+  font-size: 18px;
+  font-weight: 700;
+  text-align: center;
+  min-height: 28px;
+}
+
+.guess-form {
+  display: flex;
+  gap: 10px;
+}
+
+.guess-form input {
+  padding: 12px 16px;
+  border-radius: 999px;
+  border: 1px solid rgba(255,255,255,.15);
+  background: var(--bg-alt);
+  color: var(--text);
+  font-size: 16px;
+  width: 160px;
+  text-align: center;
+}
+
+.guess-form input:focus { outline: none; border-color: var(--accent-2); }

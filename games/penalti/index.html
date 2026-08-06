@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="pt-PT">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Grande Penalidade — JogaZone</title>
+<link rel="icon" href="../../assets/icons/favicon.svg" type="image/svg+xml">
+<link rel="stylesheet" href="../../css/style.css">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<header class="site-header"><div class="container"><a class="logo" href="../../index.html"><span class="mark">🎮</span>Joga<span class="tail">Zone</span></a></div></header>
+<main class="container">
+  <div class="game-page-header">
+    <a class="back-link" href="../../index.html">&larr; Todos os jogos</a>
+    <h1>Grande Penalidade</h1>
+  </div>
+  <div class="game-stage">
+    <div class="game-hud">
+      <div>Marcaste: <strong id="score">0</strong></div>
+      <div>Pontapé: <strong id="kick-num">1</strong> / 5</div>
+    </div>
+    <div id="goal" class="penalty-goal">
+      <div class="keeper" id="keeper">🧤</div>
+      <div class="ball" id="ball">⚽</div>
+      <div class="zone" data-zone="0"></div>
+      <div class="zone" data-zone="1"></div>
+      <div class="zone" data-zone="2"></div>
+      <div class="zone" data-zone="3"></div>
+      <div class="zone" data-zone="4"></div>
+      <div class="zone" data-zone="5"></div>
+    </div>
+    <div id="result" class="penalty-result"></div>
+    <button class="btn" id="restart-btn">Nova série</button>
+  </div>
+  <div class="how-to-play">
+    <h2>Como jogar</h2>
+    <p>Clica numa zona da baliza para chutares para lá. O guarda-redes tenta adivinhar o lado. Tens 5 pontapés — marca o máximo de golos possível.</p>
+  </div>
+</main>
+<script src="script.js"></script>
+</body>
+</html>

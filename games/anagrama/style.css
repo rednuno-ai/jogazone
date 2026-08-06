@@ -1,0 +1,30 @@
+.anagram-letters {
+  font-size: 34px;
+  font-weight: 800;
+  letter-spacing: 8px;
+  color: var(--accent-4);
+}
+
+.guess-form {
+  display: flex;
+  gap: 10px;
+}
+
+.guess-form input {
+  padding: 12px 16px;
+  border-radius: 999px;
+  border: 1px solid rgba(255,255,255,.15);
+  background: var(--bg-alt);
+  color: var(--text);
+  font-size: 16px;
+  width: 220px;
+  text-align: center;
+  text-transform: uppercase;
+}
+
+.guess-form input:focus { outline: none; border-color: var(--accent-2); }
+
+.anagram-feedback {
+  font-weight: 700;
+  min-height: 22px;
+}

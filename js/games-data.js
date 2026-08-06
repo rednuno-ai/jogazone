@@ -282,10 +282,181 @@ const GAMES = [
     path: "games/nebulosa/index.html",
     colors: ["#1a1440", "#c58bff"],
     icon: "orb"
+  },
+  {
+    id: "conecta4",
+    title: "Conecta 4",
+    category: "Tabuleiro",
+    desc: "Alinha 4 peças na horizontal, vertical ou diagonal contra o computador.",
+    path: "games/conecta4/index.html",
+    colors: ["#ff5d73", "#ffd166"],
+    icon: "grid"
+  },
+  {
+    id: "adivinha-numero",
+    title: "Adivinha o Número",
+    category: "Puzzle",
+    desc: "Descobre o número secreto entre 1 e 100 com pistas de maior ou menor.",
+    path: "games/adivinha-numero/index.html",
+    colors: ["#5da9ff", "#7ee8b5"],
+    icon: "target"
+  },
+  {
+    id: "anagrama",
+    title: "Anagrama",
+    category: "Palavras",
+    desc: "Desordena as letras à tua frente e descobre a palavra escondida.",
+    path: "games/anagrama/index.html",
+    colors: ["#ffd166", "#ff9a5a"],
+    icon: "letter"
+  },
+  {
+    id: "batalha-naval",
+    title: "Batalha Naval",
+    category: "Tabuleiro",
+    desc: "Afunda a frota escondida com o menor número de tiros possível.",
+    path: "games/batalha-naval/index.html",
+    colors: ["#1c3a5e", "#5da9ff"],
+    icon: "ship"
+  },
+  {
+    id: "caca-palavras",
+    title: "Caça-Palavras",
+    category: "Palavras",
+    desc: "Encontra as palavras escondidas na grelha de letras.",
+    path: "games/caca-palavras/index.html",
+    colors: ["#7ee8b5", "#5da9ff"],
+    icon: "squares"
+  },
+  {
+    id: "toupeira",
+    title: "Toca-a-Toupeira",
+    category: "Ação",
+    desc: "Clica nas toupeiras assim que espreitarem do buraco.",
+    path: "games/toupeira/index.html",
+    colors: ["#8a5a2a", "#ff9a5a"],
+    icon: "mole"
+  },
+  {
+    id: "hanoi",
+    title: "Torres de Hanói",
+    category: "Puzzle",
+    desc: "Move a torre de discos de uma coluna para outra sem erros.",
+    path: "games/hanoi/index.html",
+    colors: ["#c58bff", "#ff5d73"],
+    icon: "tower"
+  },
+  {
+    id: "bolhas",
+    title: "Bolhas",
+    category: "Puzzle",
+    desc: "Rebenta grupos de bolhas da mesma cor para somares pontos.",
+    path: "games/bolhas/index.html",
+    colors: ["#5da9ff", "#c58bff"],
+    icon: "bubbles"
+  },
+  {
+    id: "quiz",
+    title: "Quiz Rápido",
+    category: "Palavras",
+    desc: "10 perguntas de cultura geral: geografia, ciência e curiosidades.",
+    path: "games/quiz/index.html",
+    colors: ["#ffd166", "#7ee8b5"],
+    icon: "letter"
+  },
+  {
+    id: "dardos",
+    title: "Dardos",
+    category: "Desporto",
+    desc: "Acerta no alvo em movimento com 6 dardos.",
+    path: "games/dardos/index.html",
+    colors: ["#ff5d73", "#ffd166"],
+    icon: "target"
+  },
+  {
+    id: "basquetebol",
+    title: "Cesto Livre",
+    category: "Desporto",
+    desc: "Arrasta e larga para acertares o máximo de cestos em 40 segundos.",
+    path: "games/basquetebol/index.html",
+    colors: ["#ff9a5a", "#1a1e33"],
+    icon: "ball"
+  },
+  {
+    id: "penalti",
+    title: "Grande Penalidade",
+    category: "Desporto",
+    desc: "Escolhe o canto e tenta enganar o guarda-redes em 5 pontapés.",
+    path: "games/penalti/index.html",
+    colors: ["#2a5a2a", "#eef0fb"],
+    icon: "goal"
+  },
+  {
+    id: "golfe",
+    title: "Golfe de Um Buraco",
+    category: "Desporto",
+    desc: "Estilingue a bola até ao buraco com o menor número de pancadas.",
+    path: "games/golfe/index.html",
+    colors: ["#163a24", "#7ee8b5"],
+    icon: "golfflag"
+  },
+  {
+    id: "labirinto",
+    title: "Labirinto",
+    category: "Puzzle",
+    desc: "Percorre o labirinto do canto verde até ao canto dourado.",
+    path: "games/labirinto/index.html",
+    colors: ["#10131f", "#5da9ff"],
+    icon: "squares"
+  },
+  {
+    id: "corredor",
+    title: "Corredor Sem Fim",
+    category: "Arcade",
+    desc: "Salta os obstáculos e sobrevive o máximo de tempo possível.",
+    path: "games/corredor/index.html",
+    colors: ["#1a2440", "#ff5d73"],
+    icon: "bolt"
+  },
+  {
+    id: "roda-sorte3d",
+    title: "Roda da Sorte 3D",
+    category: "3D",
+    desc: "Gira a roda, avança no tabuleiro circular e cai na casa Curinga para duplicares pontos.",
+    path: "games/roda-sorte3d/index.html",
+    colors: ["#141830", "#ffd166"],
+    icon: "target"
+  },
+  {
+    id: "aventura-vila3d",
+    title: "Aventura na Vila 3D",
+    category: "3D",
+    desc: "Explora uma vila original em 3D, recolhe moedas e foge dos guardas em patrulha.",
+    path: "games/aventura-vila3d/index.html",
+    colors: ["#7bb8e8", "#2f9a8f"],
+    icon: "orb"
+  },
+  {
+    id: "imperio3d",
+    title: "Império Imobiliário 3D",
+    category: "3D",
+    desc: "Compra terrenos, cobra rendas e tenta não ficar sem dinheiro contra o rival.",
+    path: "games/imperio3d/index.html",
+    colors: ["#141830", "#7ee8b5"],
+    icon: "grid"
+  },
+  {
+    id: "quinta3d",
+    title: "Quinta Feliz 3D",
+    category: "3D",
+    desc: "Planta, cuida e colhe em 3D. Gere a tua pequena quinta e enche os bolsos de moedas.",
+    path: "games/quinta3d/index.html",
+    colors: ["#8fd0f0", "#5fae52"],
+    icon: "orb"
   }
 ];
 
-const CATEGORIES = ["Todos", "Puzzle", "Arcade", "Ação", "Tabuleiro", "Palavras", "Camiões", "3D"];
+const CATEGORIES = ["Todos", "Puzzle", "Arcade", "Ação", "Tabuleiro", "Palavras", "Camiões", "3D", "Desporto"];
 
 // Ícones simples desenhados em SVG (originais, sem dependências externas).
 const ICON_PATHS = {
@@ -302,7 +473,13 @@ const ICON_PATHS = {
   ship: '<g fill="none" stroke="rgba(255,255,255,.9)" stroke-width="4" stroke-linejoin="round"><path d="M50 25 L65 70 L50 60 L35 70 Z"/></g><circle cx="25" cy="30" r="2.5" fill="rgba(255,255,255,.7)"/><circle cx="72" cy="45" r="2" fill="rgba(255,255,255,.5)"/><circle cx="60" cy="20" r="1.5" fill="rgba(255,255,255,.6)"/>',
   car: '<g fill="rgba(255,255,255,.92)"><rect x="20" y="45" width="60" height="18" rx="6"/><rect x="30" y="32" width="40" height="18" rx="6"/><circle cx="32" cy="65" r="7" fill="rgba(0,0,0,.35)"/><circle cx="68" cy="65" r="7" fill="rgba(0,0,0,.35)"/></g>',
   dot: '<circle cx="35" cy="50" r="9" fill="rgba(255,255,255,.9)"/><circle cx="65" cy="35" r="9" fill="rgba(255,255,255,.6)"/><rect x="45" y="60" width="14" height="14" fill="rgba(255,255,255,.95)"/>',
-  orb: '<circle cx="50" cy="50" r="22" fill="rgba(255,255,255,.85)"/><circle cx="50" cy="50" r="30" fill="none" stroke="rgba(255,255,255,.35)" stroke-width="3"/><circle cx="42" cy="42" r="5" fill="rgba(255,255,255,.95)"/>'
+  orb: '<circle cx="50" cy="50" r="22" fill="rgba(255,255,255,.85)"/><circle cx="50" cy="50" r="30" fill="none" stroke="rgba(255,255,255,.35)" stroke-width="3"/><circle cx="42" cy="42" r="5" fill="rgba(255,255,255,.95)"/>',
+  mole: '<ellipse cx="50" cy="58" rx="26" ry="20" fill="rgba(255,255,255,.9)"/><circle cx="30" cy="34" r="9" fill="rgba(255,255,255,.9)"/><circle cx="70" cy="34" r="9" fill="rgba(255,255,255,.9)"/><circle cx="42" cy="55" r="3" fill="rgba(0,0,0,.4)"/><circle cx="58" cy="55" r="3" fill="rgba(0,0,0,.4)"/>',
+  tower: '<g fill="rgba(255,255,255,.9)"><rect x="30" y="20" width="40" height="10" rx="3"/><rect x="24" y="34" width="52" height="10" rx="3" fill="rgba(255,255,255,.7)"/><rect x="18" y="48" width="64" height="10" rx="3" fill="rgba(255,255,255,.55)"/><rect x="14" y="64" width="72" height="10" rx="3" fill="rgba(255,255,255,.4)"/></g>',
+  bubbles: '<circle cx="35" cy="45" r="16" fill="rgba(255,255,255,.85)"/><circle cx="62" cy="35" r="12" fill="rgba(255,255,255,.65)"/><circle cx="60" cy="62" r="10" fill="rgba(255,255,255,.55)"/>',
+  ball: '<circle cx="50" cy="50" r="26" fill="rgba(255,255,255,.9)"/><path d="M50 24 V76 M24 50 H76 M30 32 Q50 50 30 68 M70 32 Q50 50 70 68" stroke="rgba(0,0,0,.3)" stroke-width="2" fill="none"/>',
+  goal: '<g stroke="rgba(255,255,255,.9)" stroke-width="4" fill="none"><rect x="22" y="24" width="56" height="38"/><path d="M22 24 L30 34 M78 24 L70 34 M22 62 L30 52 M78 62 L70 52 M22 24 L22 62 M78 24 L78 62"/></g><circle cx="50" cy="72" r="6" fill="rgba(255,255,255,.9)"/>',
+  golfflag: '<line x1="35" y1="20" x2="35" y2="82" stroke="rgba(255,255,255,.9)" stroke-width="4"/><path d="M35 22 L68 32 L35 42 Z" fill="rgba(255,255,255,.9)"/><ellipse cx="35" cy="82" rx="20" ry="6" fill="rgba(255,255,255,.25)"/>'
 };
 
 function gameCoverSVG(game) {

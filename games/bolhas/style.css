@@ -1,0 +1,22 @@
+.bubble-board {
+  display: grid;
+  grid-template-columns: repeat(8, 36px);
+  grid-auto-rows: 36px;
+  gap: 3px;
+  background: var(--bg-alt);
+  padding: 8px;
+  border-radius: 12px;
+}
+
+.bubble {
+  border-radius: 50%;
+  cursor: pointer;
+  transition: transform .08s;
+}
+
+.bubble:hover { transform: scale(1.08); }
+.bubble.empty { visibility: hidden; cursor: default; }
+
+@media (max-width: 420px) {
+  .bubble-board { grid-template-columns: repeat(8, 30px); grid-auto-rows: 30px; }
+}
