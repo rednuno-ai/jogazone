@@ -1,0 +1,8 @@
+#canvas {
+  background: radial-gradient(circle at 30% 20%, #1a1440, #05060f 70%);
+  border: 1px solid rgba(255,255,255,.1);
+  border-radius: 8px;
+  max-width: 100%;
+  box-shadow: var(--shadow);
+  cursor: crosshair;
+}

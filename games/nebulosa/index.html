@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="pt-PT">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Nebulosa — JogaZone</title>
+<link rel="icon" href="../../assets/icons/favicon.svg" type="image/svg+xml">
+<link rel="stylesheet" href="../../css/style.css">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<header class="site-header">
+  <div class="container">
+    <a class="logo" href="../../index.html"><span class="mark">🎮</span>Joga<span class="tail">Zone</span></a>
+  </div>
+</header>
+
+<main class="container">
+  <div class="game-page-header">
+    <a class="back-link" href="../../index.html">&larr; Todos os jogos</a>
+    <h1>Nebulosa</h1>
+  </div>
+
+  <div class="game-stage">
+    <div class="game-hud">
+      <div>Pontos: <strong id="score">0</strong></div>
+      <div>Tempo: <strong id="timer">45</strong>s</div>
+      <div>Melhor: <strong id="best">0</strong></div>
+    </div>
+    <canvas id="canvas"></canvas>
+  </div>
+
+  <div class="how-to-play">
+    <h2>Como jogar</h2>
+    <p>Clica nas esferas brilhantes antes que se desvaneçam. Esferas douradas valem mais pontos mas são mais rápidas. Tens 45 segundos — encadeia acertos seguidos para multiplicar a pontuação.</p>
+  </div>
+</main>
+
+<script src="script.js"></script>
+</body>
+</html>

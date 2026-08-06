@@ -1,0 +1,12 @@
+#canvas {
+  background: #10131f;
+  border: 1px solid rgba(255,255,255,.1);
+  border-radius: 8px;
+  max-width: 100%;
+  box-shadow: var(--shadow);
+}
+
+#race-status {
+  font-weight: 700;
+  font-size: 15px;
+}

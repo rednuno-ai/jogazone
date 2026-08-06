@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="pt-PT">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Corrida a Dois — JogaZone</title>
+<link rel="icon" href="../../assets/icons/favicon.svg" type="image/svg+xml">
+<link rel="stylesheet" href="../../css/style.css">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<header class="site-header">
+  <div class="container">
+    <a class="logo" href="../../index.html"><span class="mark">🎮</span>Joga<span class="tail">Zone</span></a>
+  </div>
+</header>
+
+<main class="container">
+  <div class="game-page-header">
+    <a class="back-link" href="../../index.html">&larr; Todos os jogos</a>
+    <h1>Corrida a Dois</h1>
+  </div>
+
+  <div class="game-stage">
+    <div id="race-status" class="game-hud">Prontos... Partida!</div>
+    <canvas id="canvas"></canvas>
+  </div>
+
+  <div class="how-to-play">
+    <h2>Como jogar</h2>
+    <p><strong>Jogador 1 (vermelho):</strong> W / A / S / D para acelerar, travar e virar.<br>
+    <strong>Jogador 2 (azul):</strong> setas do teclado.</p>
+    <p>Evita bater nas paredes vermelhas — perdes velocidade. Chega primeiro à bandeirinha axadrezada para venceres a corrida.</p>
+    <p style="margin-top:12px;opacity:.7;font-size:12px;">
+      Física de condução adaptada do projeto open-source <a href="https://github.com/Gaetz/js-Racing" target="_blank" rel="noopener">js-Racing</a> de Gaëtan Blaise-Cazalet, licença <a href="LICENSE-gaetz.txt" target="_blank" rel="noopener">MIT</a>. Gráficos redesenhados de raiz para o JogaZone.
+    </p>
+  </div>
+</main>
+
+<script src="js/corrida.js"></script>
+</body>
+</html>

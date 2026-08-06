@@ -101,6 +101,34 @@ const GAMES = [
     colors: ["#10131f", "#5da9ff"],
     icon: "ship",
     credit: "Código aberto (BSD) de James Socol"
+  },
+  {
+    id: "corrida",
+    title: "Corrida a Dois",
+    category: "Arcade",
+    desc: "Corre contra um amigo no mesmo teclado até à linha de chegada.",
+    path: "games/corrida/index.html",
+    colors: ["#1c2138", "#ff5d73"],
+    icon: "car",
+    credit: "Física adaptada (MIT) de Gaëtan Blaise-Cazalet"
+  },
+  {
+    id: "impossivel",
+    title: "O Jogo Impossível",
+    category: "Ação",
+    desc: "Atravessa a sala evitando as bolas em movimento. Um só toque e recomeças.",
+    path: "games/impossivel/index.html",
+    colors: ["#ff5d73", "#10131f"],
+    icon: "dot"
+  },
+  {
+    id: "nebulosa",
+    title: "Nebulosa",
+    category: "Ação",
+    desc: "Clica nas esferas brilhantes antes que se desvaneçam no espaço.",
+    path: "games/nebulosa/index.html",
+    colors: ["#1a1440", "#c58bff"],
+    icon: "orb"
   }
 ];
 
@@ -118,7 +146,10 @@ const ICON_PATHS = {
   letter: '<text x="50" y="65" font-size="46" font-weight="800" text-anchor="middle" fill="rgba(255,255,255,.9)" font-family="Segoe UI, sans-serif">A?</text>',
   pong: '<g fill="rgba(255,255,255,.9)"><rect x="18" y="25" width="8" height="24" rx="3"/><rect x="74" y="50" width="8" height="24" rx="3"/><circle cx="50" cy="50" r="7"/></g>',
   blocks: '<g fill="rgba(255,255,255,.9)"><rect x="20" y="20" width="18" height="18"/><rect x="38" y="20" width="18" height="18" fill="rgba(255,255,255,.55)"/><rect x="38" y="38" width="18" height="18"/><rect x="56" y="38" width="18" height="18" fill="rgba(255,255,255,.55)"/></g>',
-  ship: '<g fill="none" stroke="rgba(255,255,255,.9)" stroke-width="4" stroke-linejoin="round"><path d="M50 25 L65 70 L50 60 L35 70 Z"/></g><circle cx="25" cy="30" r="2.5" fill="rgba(255,255,255,.7)"/><circle cx="72" cy="45" r="2" fill="rgba(255,255,255,.5)"/><circle cx="60" cy="20" r="1.5" fill="rgba(255,255,255,.6)"/>'
+  ship: '<g fill="none" stroke="rgba(255,255,255,.9)" stroke-width="4" stroke-linejoin="round"><path d="M50 25 L65 70 L50 60 L35 70 Z"/></g><circle cx="25" cy="30" r="2.5" fill="rgba(255,255,255,.7)"/><circle cx="72" cy="45" r="2" fill="rgba(255,255,255,.5)"/><circle cx="60" cy="20" r="1.5" fill="rgba(255,255,255,.6)"/>',
+  car: '<g fill="rgba(255,255,255,.92)"><rect x="20" y="45" width="60" height="18" rx="6"/><rect x="30" y="32" width="40" height="18" rx="6"/><circle cx="32" cy="65" r="7" fill="rgba(0,0,0,.35)"/><circle cx="68" cy="65" r="7" fill="rgba(0,0,0,.35)"/></g>',
+  dot: '<circle cx="35" cy="50" r="9" fill="rgba(255,255,255,.9)"/><circle cx="65" cy="35" r="9" fill="rgba(255,255,255,.6)"/><rect x="45" y="60" width="14" height="14" fill="rgba(255,255,255,.95)"/>',
+  orb: '<circle cx="50" cy="50" r="22" fill="rgba(255,255,255,.85)"/><circle cx="50" cy="50" r="30" fill="none" stroke="rgba(255,255,255,.35)" stroke-width="3"/><circle cx="42" cy="42" r="5" fill="rgba(255,255,255,.95)"/>'
 };
 
 function gameCoverSVG(game) {
