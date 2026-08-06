@@ -1,0 +1,8 @@
+#canvas {
+  background: #0b3d24;
+  border: 12px solid #5a3a24;
+  border-radius: 10px;
+  touch-action: none;
+  cursor: grab;
+  max-width: 100%;
+}

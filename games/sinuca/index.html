@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="pt-PT">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Sinuca — JogaZone</title>
+<link rel="icon" href="../../assets/icons/favicon.svg" type="image/svg+xml">
+<link rel="stylesheet" href="../../css/style.css">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<header class="site-header"><div class="container"><a class="logo" href="../../index.html"><span class="mark">🎮</span>Joga<span class="tail">Zone</span></a></div></header>
+<main class="container">
+  <div class="game-page-header">
+    <a class="back-link" href="../../index.html">&larr; Todos os jogos</a>
+    <h1>Sinuca</h1>
+  </div>
+  <div class="game-stage">
+    <div class="game-hud">
+      <div>Tacadas: <strong id="shots">0</strong></div>
+      <div>Bolas na mesa: <strong id="remaining">9</strong></div>
+      <div>Melhor: <strong id="best">—</strong></div>
+    </div>
+    <canvas id="canvas"></canvas>
+  </div>
+  <div class="how-to-play">
+    <h2>Como jogar</h2>
+    <p>Arrasta a bola branca para trás para mirares, tal como um estilingue, e larga para dares a tacada. Mete todas as bolas coloridas nas caçapas (os círculos escuros nos cantos e bordas) com o menor número de tacadas possível. Se a bola branca cair, volta ao centro.</p>
+  </div>
+</main>
+<script src="script.js"></script>
+</body>
+</html>

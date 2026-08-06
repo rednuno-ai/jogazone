@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="pt-PT">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Boliche — JogaZone</title>
+<link rel="icon" href="../../assets/icons/favicon.svg" type="image/svg+xml">
+<link rel="stylesheet" href="../../css/style.css">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<header class="site-header"><div class="container"><a class="logo" href="../../index.html"><span class="mark">🎮</span>Joga<span class="tail">Zone</span></a></div></header>
+<main class="container">
+  <div class="game-page-header">
+    <a class="back-link" href="../../index.html">&larr; Todos os jogos</a>
+    <h1>Boliche</h1>
+  </div>
+  <div class="game-stage">
+    <div class="game-hud">
+      <div>Frame: <strong id="frame">1</strong> / 10</div>
+      <div>Jogada: <strong id="roll">1</strong> / 2</div>
+      <div>Pontos: <strong id="total">0</strong></div>
+      <div>Melhor: <strong id="best">0</strong></div>
+    </div>
+    <canvas id="canvas"></canvas>
+    <div id="status" class="game-hud">Usa ◀ / ▶ para mirares e clica para lançares.</div>
+  </div>
+  <div class="how-to-play">
+    <h2>Como jogar</h2>
+    <p>Usa <strong>◀</strong> / <strong>▶</strong> para ajustares o ângulo e clica ou prime <strong>Espaço</strong> para lançares a bola. Tens 2 jogadas por frame para derrubares o máximo de pinos, ao longo de 10 frames.</p>
+  </div>
+</main>
+<script src="script.js"></script>
+</body>
+</html>

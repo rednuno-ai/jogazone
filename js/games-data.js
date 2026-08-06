@@ -518,6 +518,33 @@ const GAMES = [
     icon: "car"
   },
   {
+    id: "forklift",
+    title: "Forklift Master",
+    category: "Camiões",
+    desc: "Larga as paletes no momento certo e encadeia combos para multiplicar pontos.",
+    path: "games/forklift/index.html",
+    colors: ["#3a3f5c", "#ffd166"],
+    icon: "blocks"
+  },
+  {
+    id: "sinuca",
+    title: "Sinuca",
+    category: "Desporto",
+    desc: "Estilingue a bola branca e mete todas as bolas coloridas nas caçapas.",
+    path: "games/sinuca/index.html",
+    colors: ["#0b3d24", "#eef0fb"],
+    icon: "ball"
+  },
+  {
+    id: "boliche",
+    title: "Boliche",
+    category: "Desporto",
+    desc: "Mira, lança e derruba o máximo de pinos possível em 10 frames.",
+    path: "games/boliche/index.html",
+    colors: ["#3a2c1a", "#eef0fb"],
+    icon: "ball"
+  },
+  {
     id: "snow-plow",
     title: "Snow Plow Challenge",
     category: "Camiões",
