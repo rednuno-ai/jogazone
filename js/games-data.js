@@ -239,6 +239,42 @@ const GAMES = [
     icon: "car"
   },
   {
+    id: "estrada3d",
+    title: "Estrada 3D",
+    category: "3D",
+    desc: "Conduz numa estrada com perspetiva real e desvia-te do trânsito.",
+    path: "games/estrada3d/index.html",
+    colors: ["#0b0e1a", "#ff5d73"],
+    icon: "car"
+  },
+  {
+    id: "labirinto3d",
+    title: "Labirinto 3D",
+    category: "3D",
+    desc: "Explora um labirinto em primeira pessoa e encontra a saída dourada.",
+    path: "games/labirinto3d/index.html",
+    colors: ["#141830", "#ffd166"],
+    icon: "squares"
+  },
+  {
+    id: "tunel-neon",
+    title: "Túnel Neon",
+    category: "3D",
+    desc: "Voa por um túnel neon e atravessa a abertura de cada anel.",
+    path: "games/tunel-neon/index.html",
+    colors: ["#05010a", "#c58bff"],
+    icon: "target"
+  },
+  {
+    id: "torre3d",
+    title: "Torre 3D",
+    category: "3D",
+    desc: "Empilha blocos em 3D e constrói a torre mais alta possível.",
+    path: "games/torre3d/index.html",
+    colors: ["#141830", "#7ee8b5"],
+    icon: "blocks"
+  },
+  {
     id: "nebulosa",
     title: "Nebulosa",
     category: "Ação",
@@ -249,7 +285,7 @@ const GAMES = [
   }
 ];
 
-const CATEGORIES = ["Todos", "Puzzle", "Arcade", "Ação", "Tabuleiro", "Palavras", "Camiões"];
+const CATEGORIES = ["Todos", "Puzzle", "Arcade", "Ação", "Tabuleiro", "Palavras", "Camiões", "3D"];
 
 // Ícones simples desenhados em SVG (originais, sem dependências externas).
 const ICON_PATHS = {
