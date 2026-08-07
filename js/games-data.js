@@ -588,6 +588,51 @@ const GAMES = [
     path: "games/artilharia/index.html",
     colors: ["#4a7fc7", "#ff5d73"],
     icon: "target"
+  },
+  {
+    id: "campo-minado",
+    title: "Campo Minado",
+    category: "Puzzle",
+    desc: "Revela as células sem tocar nas minas escondidas, usando os números como pistas.",
+    path: "games/campo-minado/index.html",
+    colors: ["#0a0d18", "#ff5d73"],
+    icon: "grid"
+  },
+  {
+    id: "sokoban",
+    title: "Sokoban",
+    category: "Puzzle",
+    desc: "Empurra as caixas até às marcas douradas sem as encravares.",
+    path: "games/sokoban/index.html",
+    colors: ["#1c2138", "#ffd166"],
+    icon: "squares"
+  },
+  {
+    id: "arco-flecha",
+    title: "Arco e Flecha",
+    category: "Desporto",
+    desc: "Ajusta ângulo e força, e tem cuidado com o vento para acertares no alvo.",
+    path: "games/arco-flecha/index.html",
+    colors: ["#7bb8e8", "#ffd166"],
+    icon: "target"
+  },
+  {
+    id: "voleibol",
+    title: "Voleibol de Praia",
+    category: "Desporto",
+    desc: "Rebate a bola por cima da rede e chega primeiro aos 5 pontos.",
+    path: "games/voleibol/index.html",
+    colors: ["#7bb8e8", "#f0d896"],
+    icon: "ball"
+  },
+  {
+    id: "pinball",
+    title: "Pinball",
+    category: "Arcade",
+    desc: "Lança a bola, usa os flippers e acerta nos para-choques para somares pontos.",
+    path: "games/pinball/index.html",
+    colors: ["#10131f", "#ffd166"],
+    icon: "orb"
   }
 ];
 

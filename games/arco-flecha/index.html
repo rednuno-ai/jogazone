@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="pt-PT">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Arco e Flecha — JogaZone</title>
+<link rel="icon" href="../../assets/icons/favicon.svg" type="image/svg+xml">
+<link rel="stylesheet" href="../../css/style.css">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<header class="site-header"><div class="container"><a class="logo" href="../../index.html"><span class="mark">🎮</span>Joga<span class="tail">Zone</span></a></div></header>
+<main class="container">
+  <div class="game-page-header">
+    <a class="back-link" href="../../index.html">&larr; Todos os jogos</a>
+    <h1>Arco e Flecha</h1>
+  </div>
+  <div class="game-stage">
+    <div class="game-hud">
+      <div>Flechas: <strong id="arrows-left">6</strong></div>
+      <div>Pontos: <strong id="score">0</strong></div>
+      <div>Melhor: <strong id="best">0</strong></div>
+    </div>
+    <div id="status">▲/▼ para o ângulo. Mantém ESPAÇO para carregar e larga para disparares.</div>
+    <canvas id="canvas"></canvas>
+    <button class="btn secondary" id="restart-btn">Nova série</button>
+  </div>
+  <div class="how-to-play">
+    <h2>Como jogar</h2>
+    <p>Ajusta o ângulo com ▲/▼, mantém ESPAÇO premido para carregares a força e larga para disparares. Cuidado com o vento — ele desvia a flecha. Tens 6 flechas para fazeres a maior pontuação possível.</p>
+  </div>
+</main>
+<script src="script.js"></script>
+</body>
+</html>

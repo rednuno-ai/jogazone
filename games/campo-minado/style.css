@@ -1,0 +1,30 @@
+.mine-board {
+  display: grid;
+  grid-template-columns: repeat(10, 30px);
+  grid-template-rows: repeat(10, 30px);
+  gap: 2px;
+  background: #0a0d18;
+  padding: 6px;
+  border-radius: 8px;
+}
+
+.mine-cell {
+  background: var(--bg-alt);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 13px;
+  font-weight: 800;
+  cursor: pointer;
+  border-radius: 3px;
+  user-select: none;
+}
+
+.mine-cell:hover { background: var(--card-hover); }
+.mine-cell.revealed { background: #10131f; cursor: default; }
+.mine-cell.mine { background: var(--accent); }
+.mine-cell.flag { background: var(--accent-4); color: #1a0a0d; }
+
+@media (max-width: 420px) {
+  .mine-board { grid-template-columns: repeat(10, 28px); grid-template-rows: repeat(10, 28px); }
+}

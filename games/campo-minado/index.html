@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="pt-PT">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Campo Minado — JogaZone</title>
+<link rel="icon" href="../../assets/icons/favicon.svg" type="image/svg+xml">
+<link rel="stylesheet" href="../../css/style.css">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<header class="site-header"><div class="container"><a class="logo" href="../../index.html"><span class="mark">🎮</span>Joga<span class="tail">Zone</span></a></div></header>
+<main class="container">
+  <div class="game-page-header">
+    <a class="back-link" href="../../index.html">&larr; Todos os jogos</a>
+    <h1>Campo Minado</h1>
+  </div>
+  <div class="game-stage">
+    <div class="game-hud">
+      <div>Minas: <strong id="mines-left">15</strong></div>
+      <div id="status">Clica para revelar. Botão direito para marcar.</div>
+    </div>
+    <div id="board" class="mine-board"></div>
+    <button class="btn" id="restart-btn">Novo campo</button>
+  </div>
+  <div class="how-to-play">
+    <h2>Como jogar</h2>
+    <p>Clica numa célula para a revelares. Os números indicam quantas minas há nas células vizinhas. Usa o botão direito do rato para marcares uma célula suspeita com uma bandeira. Revela todas as células sem minas para venceres.</p>
+  </div>
+</main>
+<script src="script.js"></script>
+</body>
+</html>
