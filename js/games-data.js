@@ -669,6 +669,24 @@ const GAMES = [
     path: "games/ciclismo/index.html",
     colors: ["#7bb8e8", "#a8d888"],
     icon: "target"
+  },
+  {
+    id: "corrida-gp",
+    title: "Corrida GP",
+    category: "Camiões",
+    desc: "Acelera, trava e faz a curva certa para venceres o rival em 3 voltas de circuito.",
+    path: "games/corrida-gp/index.html",
+    colors: ["#3a7a3a", "#ffd166"],
+    icon: "car"
+  },
+  {
+    id: "motocross",
+    title: "Motocross",
+    category: "Desporto",
+    desc: "Acelera, salta rampas e equilibra a mota no ar para fazeres combos.",
+    path: "games/motocross/index.html",
+    colors: ["#e8b878", "#a86a3a"],
+    icon: "target"
   }
 ];
 

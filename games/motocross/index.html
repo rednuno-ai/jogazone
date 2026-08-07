@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="pt-PT">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Motocross — JogaZone</title>
+<link rel="icon" href="../../assets/icons/favicon.svg" type="image/svg+xml">
+<link rel="stylesheet" href="../../css/style.css">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<header class="site-header"><div class="container"><a class="logo" href="../../index.html"><span class="mark">🎮</span>Joga<span class="tail">Zone</span></a></div></header>
+<main class="container">
+  <div class="game-page-header">
+    <a class="back-link" href="../../index.html">&larr; Todos os jogos</a>
+    <h1>Motocross</h1>
+  </div>
+  <div class="game-stage">
+    <div class="game-hud">
+      <div>Distância: <strong id="score">0</strong>m</div>
+      <div>Melhor: <strong id="best">0</strong>m</div>
+      <div>Combo no ar: <strong id="combo">0</strong></div>
+    </div>
+    <canvas id="canvas"></canvas>
+  </div>
+  <div class="how-to-play">
+    <h2>Como jogar</h2>
+    <p>Mantém <strong>▲</strong> premido para aceleraes. Usa <strong>◀</strong> / <strong>▶</strong> no ar para equilibrares a mota. As rampas dão-te saltos — quanto mais tempo no ar em equilíbrio, mais pontos de combo ganhas. Cair mal ou bater termina a corrida.</p>
+  </div>
+</main>
+<script src="script.js"></script>
+</body>
+</html>

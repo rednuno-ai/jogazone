@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="pt-PT">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Corrida GP — JogaZone</title>
+<link rel="icon" href="../../assets/icons/favicon.svg" type="image/svg+xml">
+<link rel="stylesheet" href="../../css/style.css">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<header class="site-header"><div class="container"><a class="logo" href="../../index.html"><span class="mark">🎮</span>Joga<span class="tail">Zone</span></a></div></header>
+<main class="container">
+  <div class="game-page-header">
+    <a class="back-link" href="../../index.html">&larr; Todos os jogos</a>
+    <h1>Corrida GP</h1>
+  </div>
+  <div class="game-stage">
+    <div class="game-hud">
+      <div>Volta: <strong id="lap">1</strong> / 3</div>
+      <div>Tempo: <strong id="time">00.0</strong>s</div>
+      <div>Melhor volta: <strong id="best">—</strong></div>
+    </div>
+    <canvas id="canvas"></canvas>
+  </div>
+  <div class="how-to-play">
+    <h2>Como jogar</h2>
+    <p>Usa <strong>▲</strong> para aceleraes, <strong>▼</strong> para travares e <strong>◀</strong> / <strong>▶</strong> para viraes. Sair da pista para a relva torna o carro mais lento. Passa por todos os pontos de controlo pela ordem certa para completares uma volta. Corre 3 voltas contra o rival.</p>
+  </div>
+</main>
+<script src="script.js"></script>
+</body>
+</html>
