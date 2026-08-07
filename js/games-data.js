@@ -660,6 +660,15 @@ const GAMES = [
     path: "games/fusao-frutas/index.html",
     colors: ["#fdf6e3", "#ff9a5a"],
     icon: "orb"
+  },
+  {
+    id: "ciclismo",
+    title: "Corrida de Bicicleta",
+    category: "Desporto",
+    desc: "Pedala pelas colinas e salta obstáculos o mais longe possível.",
+    path: "games/ciclismo/index.html",
+    colors: ["#7bb8e8", "#a8d888"],
+    icon: "target"
   }
 ];
 
