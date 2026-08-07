@@ -1,0 +1,8 @@
+#canvas {
+  background: linear-gradient(#4a7fc7, #a8d0e8);
+  border: 1px solid rgba(255,255,255,.1);
+  border-radius: 8px;
+  max-width: 100%;
+}
+
+#status { color: var(--accent-4); font-size: 13px; text-align: center; }

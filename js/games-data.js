@@ -552,6 +552,42 @@ const GAMES = [
     path: "games/snow-plow/index.html",
     colors: ["#c7d7e0", "#5da9ff"],
     icon: "car"
+  },
+  {
+    id: "heptatlo",
+    title: "Heptatlo",
+    category: "Desporto",
+    desc: "Sete provas de atletismo: corre, salta e lança para somares a maior pontuação.",
+    path: "games/heptatlo/index.html",
+    colors: ["#1c2138", "#ffd166"],
+    icon: "target"
+  },
+  {
+    id: "cacador-labirinto",
+    title: "Caçador do Labirinto",
+    category: "Ação",
+    desc: "Come todos os pontos do labirinto e foge dos perseguidores. Apanha a esfera para os comeres a eles.",
+    path: "games/cacador-labirinto/index.html",
+    colors: ["#0a0a1a", "#7ee8b5"],
+    icon: "dot"
+  },
+  {
+    id: "esqui",
+    title: "Esqui Alpino",
+    category: "Desporto",
+    desc: "Desvia-te das árvores e passa pelas portas de slalom o mais rápido possível.",
+    path: "games/esqui/index.html",
+    colors: ["#eaf4fb", "#5da9ff"],
+    icon: "target"
+  },
+  {
+    id: "artilharia",
+    title: "Artilharia",
+    category: "Ação",
+    desc: "Ajusta ângulo e potência, dispara e destrói o terreno num duelo por turnos.",
+    path: "games/artilharia/index.html",
+    colors: ["#4a7fc7", "#ff5d73"],
+    icon: "target"
   }
 ];
 

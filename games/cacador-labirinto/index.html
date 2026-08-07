@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="pt-PT">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Caçador do Labirinto — JogaZone</title>
+<link rel="icon" href="../../assets/icons/favicon.svg" type="image/svg+xml">
+<link rel="stylesheet" href="../../css/style.css">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<header class="site-header"><div class="container"><a class="logo" href="../../index.html"><span class="mark">🎮</span>Joga<span class="tail">Zone</span></a></div></header>
+<main class="container">
+  <div class="game-page-header">
+    <a class="back-link" href="../../index.html">&larr; Todos os jogos</a>
+    <h1>Caçador do Labirinto</h1>
+  </div>
+  <div class="game-stage">
+    <div class="game-hud">
+      <div>Pontos: <strong id="score">0</strong></div>
+      <div>Vidas: <strong id="lives">3</strong></div>
+      <div>Melhor: <strong id="best">0</strong></div>
+    </div>
+    <canvas id="canvas"></canvas>
+  </div>
+  <div class="how-to-play">
+    <h2>Como jogar</h2>
+    <p>Usa as setas para andares pelo labirinto e comeres todos os pontos. Evita os perseguidores — se apanhares uma esfera maior (canto), consegues comê-los durante alguns segundos!</p>
+  </div>
+</main>
+<script src="script.js"></script>
+</body>
+</html>

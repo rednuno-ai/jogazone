@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="pt-PT">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Heptatlo — JogaZone</title>
+<link rel="icon" href="../../assets/icons/favicon.svg" type="image/svg+xml">
+<link rel="stylesheet" href="../../css/style.css">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<header class="site-header"><div class="container"><a class="logo" href="../../index.html"><span class="mark">🎮</span>Joga<span class="tail">Zone</span></a></div></header>
+<main class="container">
+  <div class="game-page-header">
+    <a class="back-link" href="../../index.html">&larr; Todos os jogos</a>
+    <h1>Heptatlo</h1>
+  </div>
+  <div class="game-stage">
+    <div class="game-hud">
+      <div>Prova: <strong id="event-num">1</strong> / 7</div>
+      <div>Pontos totais: <strong id="total">0</strong></div>
+      <div>Melhor: <strong id="best">0</strong></div>
+    </div>
+    <div id="event-name" class="hept-event-name">100 metros</div>
+    <canvas id="canvas"></canvas>
+    <div id="status" class="hept-status">Prepara-te...</div>
+    <button class="btn" id="action-btn">Começar</button>
+  </div>
+  <div class="how-to-play">
+    <h2>Como jogar</h2>
+    <p>Sete provas de atletismo, cada uma com o seu mecanismo: alterna teclas o mais rápido possível nas corridas, acerta no tempo certo nos saltos e ajusta potência e ângulo nos lançamentos. No final soma-se a pontuação das 7 provas.</p>
+  </div>
+</main>
+<script src="script.js"></script>
+</body>
+</html>

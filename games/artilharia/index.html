@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="pt-PT">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Artilharia — JogaZone</title>
+<link rel="icon" href="../../assets/icons/favicon.svg" type="image/svg+xml">
+<link rel="stylesheet" href="../../css/style.css">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<header class="site-header"><div class="container"><a class="logo" href="../../index.html"><span class="mark">🎮</span>Joga<span class="tail">Zone</span></a></div></header>
+<main class="container">
+  <div class="game-page-header">
+    <a class="back-link" href="../../index.html">&larr; Todos os jogos</a>
+    <h1>Artilharia</h1>
+  </div>
+  <div class="game-stage">
+    <div class="game-hud">
+      <div>Tua vida: <strong id="my-hp">100</strong></div>
+      <div>Vida rival: <strong id="ai-hp">100</strong></div>
+      <div>Ângulo: <strong id="angle-val">45</strong>°</div>
+    </div>
+    <canvas id="canvas"></canvas>
+    <div id="status" class="game-hud">A tua vez! ▲/▼ para o ângulo, mantém ESPAÇO para carregar potência.</div>
+    <button class="btn secondary" id="restart-btn">Novo jogo</button>
+  </div>
+  <div class="how-to-play">
+    <h2>Como jogar</h2>
+    <p>Usa <strong>▲</strong> / <strong>▼</strong> para ajustares o ângulo do disparo. Mantém <strong>ESPAÇO</strong> premido para carregares a potência e larga para disparares. Acerta no rival e destrói o terreno à tua volta. Vence quem ficar com vida quando o outro chegar a 0.</p>
+  </div>
+</main>
+<script src="script.js"></script>
+</body>
+</html>
