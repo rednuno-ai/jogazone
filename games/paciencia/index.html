@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="pt-PT">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Paciência — JogaZone</title>
+<link rel="icon" href="../../assets/icons/favicon.svg" type="image/svg+xml">
+<link rel="stylesheet" href="../../css/style.css">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<header class="site-header"><div class="container"><a class="logo" href="../../index.html"><span class="mark">🎮</span>Joga<span class="tail">Zone</span></a></div></header>
+<main class="container">
+  <div class="game-page-header">
+    <a class="back-link" href="../../index.html">&larr; Todos os jogos</a>
+    <h1>Paciência</h1>
+  </div>
+  <div class="game-stage">
+    <div class="game-hud">
+      <div>Movimentos: <strong id="moves">0</strong></div>
+      <div id="status"></div>
+    </div>
+    <div class="pac-top-row">
+      <div id="stock" class="pac-pile stock"></div>
+      <div id="waste" class="pac-pile waste"></div>
+      <div class="pac-spacer"></div>
+      <div id="foundations" class="pac-foundations"></div>
+    </div>
+    <div id="tableau" class="pac-tableau"></div>
+    <button class="btn" id="restart-btn">Novo jogo</button>
+  </div>
+  <div class="how-to-play">
+    <h2>Como jogar</h2>
+    <p>Clica no monte para revelares cartas. Clica numa carta para a selecionares e depois clica no destino (outra coluna ou uma fundação) para a moveres. Constrói as colunas alternando cores em ordem decrescente, e as fundações por naipe em ordem crescente a partir do Ás.</p>
+  </div>
+</main>
+<script src="script.js"></script>
+</body>
+</html>

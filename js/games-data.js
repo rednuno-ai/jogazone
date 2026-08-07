@@ -633,6 +633,33 @@ const GAMES = [
     path: "games/pinball/index.html",
     colors: ["#10131f", "#ffd166"],
     icon: "orb"
+  },
+  {
+    id: "paciencia",
+    title: "Paciência",
+    category: "Tabuleiro",
+    desc: "O clássico jogo de cartas Klondike. Organiza as fundações por naipe do Ás ao Rei.",
+    path: "games/paciencia/index.html",
+    colors: ["#1c2138", "#eef0fb"],
+    icon: "letter"
+  },
+  {
+    id: "mahjong",
+    title: "Mahjong Solitário",
+    category: "Puzzle",
+    desc: "Remove pares de peças livres até limpares o tabuleiro por completo.",
+    path: "games/mahjong/index.html",
+    colors: ["#f4f0e6", "#cfc6ac"],
+    icon: "squares"
+  },
+  {
+    id: "fusao-frutas",
+    title: "Fusão de Frutas",
+    category: "Puzzle",
+    desc: "Larga frutas iguais para as fundires em frutas maiores sem passares da linha.",
+    path: "games/fusao-frutas/index.html",
+    colors: ["#fdf6e3", "#ff9a5a"],
+    icon: "orb"
   }
 ];
 

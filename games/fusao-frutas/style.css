@@ -1,0 +1,6 @@
+#canvas {
+  background: #fdf6e3;
+  border: 1px solid rgba(255,255,255,.15);
+  border-radius: 8px;
+  cursor: pointer;
+}
