@@ -1,0 +1,7 @@
+#canvas {
+  background: #0d3d5c;
+  border: 1px solid rgba(255,255,255,.1);
+  border-radius: 8px;
+  max-width: 100%;
+  cursor: none;
+}

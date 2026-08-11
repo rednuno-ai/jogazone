@@ -1,0 +1,26 @@
+.b3-wrap {
+  width: 100%;
+  max-width: 560px;
+  aspect-ratio: 4/3;
+  margin: 0 auto;
+  border-radius: 8px;
+  overflow: hidden;
+  border: 1px solid rgba(255,255,255,.1);
+}
+
+.b3-wrap canvas { display: block; width: 100%; height: 100%; }
+
+.b3-power {
+  max-width: 300px;
+  margin: 12px auto 0;
+  height: 16px;
+  background: rgba(255,255,255,.08);
+  border-radius: 8px;
+  overflow: hidden;
+}
+
+.b3-power-fill {
+  height: 100%;
+  width: 0%;
+  background: linear-gradient(90deg, #7ee8b5, #ffd166, #ff5d73);
+}

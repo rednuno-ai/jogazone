@@ -759,6 +759,42 @@ const GAMES = [
     path: "games/traversia/index.html",
     colors: ["#2d5a3a", "#1a4a7a"],
     icon: "cross"
+  },
+  {
+    id: "tenis-mesa",
+    title: "Ténis de Mesa",
+    category: "Desporto",
+    desc: "Rebate a bola por cima da rede com o rato e vence o computador até 11 pontos.",
+    path: "games/tenis-mesa/index.html",
+    colors: ["#0d3d5c", "#ffd166"],
+    icon: "pong"
+  },
+  {
+    id: "boxe",
+    title: "Boxe",
+    category: "Desporto",
+    desc: "Reage aos comandos de soco e defesa mais rápido que o adversário para venceres o combate.",
+    path: "games/boxe/index.html",
+    colors: ["#5da9ff", "#ff5d73"],
+    icon: "cross"
+  },
+  {
+    id: "torres-coloridas",
+    title: "Torres Coloridas",
+    category: "Puzzle",
+    desc: "Larga o bloco no momento certo para alinhares com a torre e a manteres o mais larga possível.",
+    path: "games/torres-coloridas/index.html",
+    colors: ["#5da9ff", "#ffd166"],
+    icon: "tower"
+  },
+  {
+    id: "basquete3d",
+    title: "Basquete 3D",
+    category: "3D",
+    desc: "Carrega para ajustares a potência e acerta no cesto em 3D antes que o tempo acabe.",
+    path: "games/basquete3d/index.html",
+    colors: ["#0d1a2f", "#ff9a5a"],
+    icon: "ball"
   }
 ];
 

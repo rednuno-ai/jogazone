@@ -41,6 +41,11 @@
     <priority>0.8</priority>
   </url>
   <url>
+    <loc>https://jogazone.pt/games/basquete3d/index.html</loc>
+    <lastmod>2026-08-11</lastmod>
+    <priority>0.8</priority>
+  </url>
+  <url>
     <loc>https://jogazone.pt/games/basquetebol/index.html</loc>
     <lastmod>2026-08-11</lastmod>
     <priority>0.8</priority>
@@ -62,6 +67,11 @@
   </url>
   <url>
     <loc>https://jogazone.pt/games/boliche/index.html</loc>
+    <lastmod>2026-08-11</lastmod>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://jogazone.pt/games/boxe/index.html</loc>
     <lastmod>2026-08-11</lastmod>
     <priority>0.8</priority>
   </url>
@@ -361,7 +371,17 @@
     <priority>0.8</priority>
   </url>
   <url>
+    <loc>https://jogazone.pt/games/tenis-mesa/index.html</loc>
+    <lastmod>2026-08-11</lastmod>
+    <priority>0.8</priority>
+  </url>
+  <url>
     <loc>https://jogazone.pt/games/torre3d/index.html</loc>
+    <lastmod>2026-08-11</lastmod>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://jogazone.pt/games/torres-coloridas/index.html</loc>
     <lastmod>2026-08-11</lastmod>
     <priority>0.8</priority>
   </url>
