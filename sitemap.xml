@@ -2,162 +2,387 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
     <loc>https://jogazone.pt/</loc>
-    <lastmod>2026-08-06</lastmod>
+    <lastmod>2026-08-11</lastmod>
     <priority>1.0</priority>
   </url>
   <url>
     <loc>https://jogazone.pt/games/2048/index.html</loc>
-    <lastmod>2026-08-06</lastmod>
+    <lastmod>2026-08-11</lastmod>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://jogazone.pt/games/adivinha-numero/index.html</loc>
+    <lastmod>2026-08-11</lastmod>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://jogazone.pt/games/anagrama/index.html</loc>
+    <lastmod>2026-08-11</lastmod>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://jogazone.pt/games/ar-hoquei/index.html</loc>
+    <lastmod>2026-08-11</lastmod>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://jogazone.pt/games/arco-flecha/index.html</loc>
+    <lastmod>2026-08-11</lastmod>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://jogazone.pt/games/artilharia/index.html</loc>
+    <lastmod>2026-08-11</lastmod>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://jogazone.pt/games/aventura-vila3d/index.html</loc>
+    <lastmod>2026-08-11</lastmod>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://jogazone.pt/games/basquetebol/index.html</loc>
+    <lastmod>2026-08-11</lastmod>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://jogazone.pt/games/batalha-naval/index.html</loc>
+    <lastmod>2026-08-11</lastmod>
     <priority>0.8</priority>
   </url>
   <url>
     <loc>https://jogazone.pt/games/blocos/index.html</loc>
-    <lastmod>2026-08-06</lastmod>
+    <lastmod>2026-08-11</lastmod>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://jogazone.pt/games/bolhas/index.html</loc>
+    <lastmod>2026-08-11</lastmod>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://jogazone.pt/games/boliche/index.html</loc>
+    <lastmod>2026-08-11</lastmod>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://jogazone.pt/games/caca-palavras/index.html</loc>
+    <lastmod>2026-08-11</lastmod>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://jogazone.pt/games/cacador-labirinto/index.html</loc>
+    <lastmod>2026-08-11</lastmod>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://jogazone.pt/games/campo-minado/index.html</loc>
+    <lastmod>2026-08-11</lastmod>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://jogazone.pt/games/ciclismo/index.html</loc>
+    <lastmod>2026-08-11</lastmod>
     <priority>0.8</priority>
   </url>
   <url>
     <loc>https://jogazone.pt/games/cobra/index.html</loc>
-    <lastmod>2026-08-06</lastmod>
+    <lastmod>2026-08-11</lastmod>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://jogazone.pt/games/conecta4/index.html</loc>
+    <lastmod>2026-08-11</lastmod>
     <priority>0.8</priority>
   </url>
   <url>
     <loc>https://jogazone.pt/games/container-stack/index.html</loc>
-    <lastmod>2026-08-06</lastmod>
+    <lastmod>2026-08-11</lastmod>
     <priority>0.8</priority>
   </url>
   <url>
     <loc>https://jogazone.pt/games/convoy/index.html</loc>
-    <lastmod>2026-08-06</lastmod>
+    <lastmod>2026-08-11</lastmod>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://jogazone.pt/games/corredor/index.html</loc>
+    <lastmod>2026-08-11</lastmod>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://jogazone.pt/games/corrida-gp/index.html</loc>
+    <lastmod>2026-08-11</lastmod>
     <priority>0.8</priority>
   </url>
   <url>
     <loc>https://jogazone.pt/games/corrida/index.html</loc>
-    <lastmod>2026-08-06</lastmod>
+    <lastmod>2026-08-11</lastmod>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://jogazone.pt/games/dados-sorte/index.html</loc>
+    <lastmod>2026-08-11</lastmod>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://jogazone.pt/games/damas/index.html</loc>
+    <lastmod>2026-08-11</lastmod>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://jogazone.pt/games/dardos/index.html</loc>
+    <lastmod>2026-08-11</lastmod>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://jogazone.pt/games/digitacao/index.html</loc>
+    <lastmod>2026-08-11</lastmod>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://jogazone.pt/games/esqui/index.html</loc>
+    <lastmod>2026-08-11</lastmod>
     <priority>0.8</priority>
   </url>
   <url>
     <loc>https://jogazone.pt/games/estrada3d/index.html</loc>
-    <lastmod>2026-08-06</lastmod>
+    <lastmod>2026-08-11</lastmod>
     <priority>0.8</priority>
   </url>
   <url>
     <loc>https://jogazone.pt/games/forca/index.html</loc>
-    <lastmod>2026-08-06</lastmod>
+    <lastmod>2026-08-11</lastmod>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://jogazone.pt/games/forklift/index.html</loc>
+    <lastmod>2026-08-11</lastmod>
     <priority>0.8</priority>
   </url>
   <url>
     <loc>https://jogazone.pt/games/fuel-rush/index.html</loc>
-    <lastmod>2026-08-06</lastmod>
+    <lastmod>2026-08-11</lastmod>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://jogazone.pt/games/fusao-frutas/index.html</loc>
+    <lastmod>2026-08-11</lastmod>
     <priority>0.8</priority>
   </url>
   <url>
     <loc>https://jogazone.pt/games/galo/index.html</loc>
-    <lastmod>2026-08-06</lastmod>
+    <lastmod>2026-08-11</lastmod>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://jogazone.pt/games/golfe/index.html</loc>
+    <lastmod>2026-08-11</lastmod>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://jogazone.pt/games/hanoi/index.html</loc>
+    <lastmod>2026-08-11</lastmod>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://jogazone.pt/games/heptatlo/index.html</loc>
+    <lastmod>2026-08-11</lastmod>
     <priority>0.8</priority>
   </url>
   <url>
     <loc>https://jogazone.pt/games/highway-escape/index.html</loc>
-    <lastmod>2026-08-06</lastmod>
+    <lastmod>2026-08-11</lastmod>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://jogazone.pt/games/imperio3d/index.html</loc>
+    <lastmod>2026-08-11</lastmod>
     <priority>0.8</priority>
   </url>
   <url>
     <loc>https://jogazone.pt/games/impossivel/index.html</loc>
-    <lastmod>2026-08-06</lastmod>
+    <lastmod>2026-08-11</lastmod>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://jogazone.pt/games/labirinto/index.html</loc>
+    <lastmod>2026-08-11</lastmod>
     <priority>0.8</priority>
   </url>
   <url>
     <loc>https://jogazone.pt/games/labirinto3d/index.html</loc>
-    <lastmod>2026-08-06</lastmod>
+    <lastmod>2026-08-11</lastmod>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://jogazone.pt/games/mahjong/index.html</loc>
+    <lastmod>2026-08-11</lastmod>
     <priority>0.8</priority>
   </url>
   <url>
     <loc>https://jogazone.pt/games/memoria/index.html</loc>
-    <lastmod>2026-08-06</lastmod>
+    <lastmod>2026-08-11</lastmod>
     <priority>0.8</priority>
   </url>
   <url>
     <loc>https://jogazone.pt/games/meteoros/index.html</loc>
-    <lastmod>2026-08-06</lastmod>
+    <lastmod>2026-08-11</lastmod>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://jogazone.pt/games/motocross/index.html</loc>
+    <lastmod>2026-08-11</lastmod>
     <priority>0.8</priority>
   </url>
   <url>
     <loc>https://jogazone.pt/games/nebulosa/index.html</loc>
-    <lastmod>2026-08-06</lastmod>
+    <lastmod>2026-08-11</lastmod>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://jogazone.pt/games/paciencia/index.html</loc>
+    <lastmod>2026-08-11</lastmod>
     <priority>0.8</priority>
   </url>
   <url>
     <loc>https://jogazone.pt/games/parking-jam/index.html</loc>
-    <lastmod>2026-08-06</lastmod>
+    <lastmod>2026-08-11</lastmod>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://jogazone.pt/games/penalti/index.html</loc>
+    <lastmod>2026-08-11</lastmod>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://jogazone.pt/games/pinball/index.html</loc>
+    <lastmod>2026-08-11</lastmod>
     <priority>0.8</priority>
   </url>
   <url>
     <loc>https://jogazone.pt/games/pong-classico/index.html</loc>
-    <lastmod>2026-08-06</lastmod>
+    <lastmod>2026-08-11</lastmod>
     <priority>0.8</priority>
   </url>
   <url>
     <loc>https://jogazone.pt/games/puzzle15/index.html</loc>
-    <lastmod>2026-08-06</lastmod>
+    <lastmod>2026-08-11</lastmod>
     <priority>0.8</priority>
   </url>
   <url>
     <loc>https://jogazone.pt/games/quebra-blocos/index.html</loc>
-    <lastmod>2026-08-06</lastmod>
+    <lastmod>2026-08-11</lastmod>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://jogazone.pt/games/quinta3d/index.html</loc>
+    <lastmod>2026-08-11</lastmod>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://jogazone.pt/games/quiz/index.html</loc>
+    <lastmod>2026-08-11</lastmod>
     <priority>0.8</priority>
   </url>
   <url>
     <loc>https://jogazone.pt/games/reflexo/index.html</loc>
-    <lastmod>2026-08-06</lastmod>
+    <lastmod>2026-08-11</lastmod>
     <priority>0.8</priority>
   </url>
   <url>
     <loc>https://jogazone.pt/games/road-repair/index.html</loc>
-    <lastmod>2026-08-06</lastmod>
+    <lastmod>2026-08-11</lastmod>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://jogazone.pt/games/roda-sorte3d/index.html</loc>
+    <lastmod>2026-08-11</lastmod>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://jogazone.pt/games/sequencia-numerica/index.html</loc>
+    <lastmod>2026-08-11</lastmod>
     <priority>0.8</priority>
   </url>
   <url>
     <loc>https://jogazone.pt/games/simon/index.html</loc>
-    <lastmod>2026-08-06</lastmod>
+    <lastmod>2026-08-11</lastmod>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://jogazone.pt/games/sinuca/index.html</loc>
+    <lastmod>2026-08-11</lastmod>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://jogazone.pt/games/snow-plow/index.html</loc>
+    <lastmod>2026-08-11</lastmod>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://jogazone.pt/games/sokoban/index.html</loc>
+    <lastmod>2026-08-11</lastmod>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://jogazone.pt/games/sudoku/index.html</loc>
+    <lastmod>2026-08-11</lastmod>
     <priority>0.8</priority>
   </url>
   <url>
     <loc>https://jogazone.pt/games/torre3d/index.html</loc>
-    <lastmod>2026-08-06</lastmod>
+    <lastmod>2026-08-11</lastmod>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://jogazone.pt/games/toupeira/index.html</loc>
+    <lastmod>2026-08-11</lastmod>
     <priority>0.8</priority>
   </url>
   <url>
     <loc>https://jogazone.pt/games/truck-jump/index.html</loc>
-    <lastmod>2026-08-06</lastmod>
+    <lastmod>2026-08-11</lastmod>
     <priority>0.8</priority>
   </url>
   <url>
     <loc>https://jogazone.pt/games/truck-memoria/index.html</loc>
-    <lastmod>2026-08-06</lastmod>
+    <lastmod>2026-08-11</lastmod>
     <priority>0.8</priority>
   </url>
   <url>
     <loc>https://jogazone.pt/games/truck-parking/index.html</loc>
-    <lastmod>2026-08-06</lastmod>
+    <lastmod>2026-08-11</lastmod>
     <priority>0.8</priority>
   </url>
   <url>
     <loc>https://jogazone.pt/games/truck-quiz/index.html</loc>
-    <lastmod>2026-08-06</lastmod>
+    <lastmod>2026-08-11</lastmod>
     <priority>0.8</priority>
   </url>
   <url>
     <loc>https://jogazone.pt/games/truck-wash/index.html</loc>
-    <lastmod>2026-08-06</lastmod>
+    <lastmod>2026-08-11</lastmod>
     <priority>0.8</priority>
   </url>
   <url>
     <loc>https://jogazone.pt/games/tunel-neon/index.html</loc>
-    <lastmod>2026-08-06</lastmod>
+    <lastmod>2026-08-11</lastmod>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://jogazone.pt/games/tyre-dodge/index.html</loc>
+    <lastmod>2026-08-11</lastmod>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://jogazone.pt/games/voleibol/index.html</loc>
+    <lastmod>2026-08-11</lastmod>
     <priority>0.8</priority>
   </url>
   <url>
     <loc>https://jogazone.pt/games/wheel-change/index.html</loc>
-    <lastmod>2026-08-06</lastmod>
+    <lastmod>2026-08-11</lastmod>
     <priority>0.8</priority>
   </url>
 </urlset>
