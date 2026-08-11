@@ -723,6 +723,42 @@ const GAMES = [
     path: "games/gemas-magicas/index.html",
     colors: ["#c792ea", "#ff9a5a"],
     icon: "diamond"
+  },
+  {
+    id: "palavra-secreta",
+    title: "Palavra Secreta",
+    category: "Palavras",
+    desc: "Descobre a palavra de 5 letras em 6 tentativas com pistas de cor a cada tentativa.",
+    path: "games/palavra-secreta/index.html",
+    colors: ["#4caf6d", "#d9b23c"],
+    icon: "letter"
+  },
+  {
+    id: "vinte-e-um",
+    title: "Vinte e Um",
+    category: "Tabuleiro",
+    desc: "Chega o mais perto possível de 21 sem passares e vence a banca.",
+    path: "games/vinte-e-um/index.html",
+    colors: ["#0d3d1f", "#d9364a"],
+    icon: "squares"
+  },
+  {
+    id: "defensor-espacial",
+    title: "Defensor Espacial",
+    category: "Ação",
+    desc: "Destrói as vagas de invasores antes que cheguem até ti e desvia-te dos disparos.",
+    path: "games/defensor-espacial/index.html",
+    colors: ["#05070f", "#7ee8b5"],
+    icon: "ship"
+  },
+  {
+    id: "traversia",
+    title: "Traversia",
+    category: "Arcade",
+    desc: "Atravessa a estrada e o rio, desvia-te do trânsito e salta de tronco em tronco até à margem.",
+    path: "games/traversia/index.html",
+    colors: ["#2d5a3a", "#1a4a7a"],
+    icon: "cross"
   }
 ];
 

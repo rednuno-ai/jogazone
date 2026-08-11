@@ -1,0 +1,64 @@
+.ps-grid {
+  display: grid;
+  grid-template-rows: repeat(6, 1fr);
+  gap: 6px;
+  max-width: 320px;
+  margin: 16px auto;
+}
+
+.ps-row {
+  display: grid;
+  grid-template-columns: repeat(5, 1fr);
+  gap: 6px;
+}
+
+.ps-tile {
+  aspect-ratio: 1;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-weight: 800;
+  font-size: 1.3rem;
+  text-transform: uppercase;
+  border: 2px solid rgba(255,255,255,.2);
+  border-radius: 6px;
+  background: rgba(255,255,255,.03);
+  color: #eef0fb;
+}
+
+.ps-tile.correct { background: #4caf6d; border-color: #4caf6d; }
+.ps-tile.present { background: #d9b23c; border-color: #d9b23c; }
+.ps-tile.absent { background: rgba(255,255,255,.08); border-color: rgba(255,255,255,.08); color: rgba(255,255,255,.4); }
+
+.ps-keyboard {
+  display: flex;
+  flex-direction: column;
+  gap: 6px;
+  max-width: 440px;
+  margin: 0 auto;
+}
+
+.ps-krow {
+  display: flex;
+  gap: 4px;
+  justify-content: center;
+}
+
+.ps-key {
+  min-width: 30px;
+  padding: 10px 6px;
+  border-radius: 6px;
+  border: none;
+  background: rgba(255,255,255,.12);
+  color: #eef0fb;
+  font-weight: 700;
+  cursor: pointer;
+  text-transform: uppercase;
+  font-size: .8rem;
+}
+
+.ps-key:hover { background: rgba(255,255,255,.2); }
+.ps-key.wide { min-width: 54px; }
+.ps-key.correct { background: #4caf6d; }
+.ps-key.present { background: #d9b23c; }
+.ps-key.absent { background: rgba(255,255,255,.06); color: rgba(255,255,255,.35); }
