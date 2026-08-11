@@ -867,6 +867,42 @@ const GAMES = [
     path: "games/labirinto-giratorio/index.html",
     colors: ["#1a1a2e", "#ffd166"],
     icon: "orb"
+  },
+  {
+    id: "batalha-pioes",
+    title: "Batalha de Piões",
+    category: "Ação",
+    desc: "Empurra o pião do adversário para fora da arena antes que ele te empurre a ti.",
+    path: "games/batalha-pioes/index.html",
+    colors: ["#5da9ff", "#ff5d73"],
+    icon: "orb"
+  },
+  {
+    id: "escalada-montanha",
+    title: "Escalada da Montanha",
+    category: "Arcade",
+    desc: "Salta de plataforma em plataforma e sobe o mais alto possível sem caíres.",
+    path: "games/escalada-montanha/index.html",
+    colors: ["#2a3a6c", "#7ee8b5"],
+    icon: "tower"
+  },
+  {
+    id: "concurso-latas",
+    title: "Concurso de Latas",
+    category: "Desporto",
+    desc: "Arrasta para atirares a bola e deitares abaixo a pirâmide de latas antes que as bolas acabem.",
+    path: "games/concurso-latas/index.html",
+    colors: ["#2a2035", "#c0c8d0"],
+    icon: "squares"
+  },
+  {
+    id: "pesca",
+    title: "Pesca",
+    category: "Arcade",
+    desc: "Mantém o anzol alinhado com o peixe para o pescares antes que ele escape.",
+    path: "games/pesca/index.html",
+    colors: ["#1a4a7a", "#ffd166"],
+    icon: "bubbles"
   }
 ];
 

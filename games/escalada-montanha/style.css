@@ -1,0 +1,6 @@
+#canvas {
+  background: linear-gradient(#2a3a6c, #10131f);
+  border: 1px solid rgba(255,255,255,.1);
+  border-radius: 8px;
+  max-width: 100%;
+}

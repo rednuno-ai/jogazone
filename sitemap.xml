@@ -56,6 +56,11 @@
     <priority>0.8</priority>
   </url>
   <url>
+    <loc>https://jogazone.pt/games/batalha-pioes/index.html</loc>
+    <lastmod>2026-08-11</lastmod>
+    <priority>0.8</priority>
+  </url>
+  <url>
     <loc>https://jogazone.pt/games/blocos/index.html</loc>
     <lastmod>2026-08-11</lastmod>
     <priority>0.8</priority>
@@ -97,6 +102,11 @@
   </url>
   <url>
     <loc>https://jogazone.pt/games/cobra/index.html</loc>
+    <lastmod>2026-08-11</lastmod>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://jogazone.pt/games/concurso-latas/index.html</loc>
     <lastmod>2026-08-11</lastmod>
     <priority>0.8</priority>
   </url>
@@ -172,6 +182,11 @@
   </url>
   <url>
     <loc>https://jogazone.pt/games/domino/index.html</loc>
+    <lastmod>2026-08-11</lastmod>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://jogazone.pt/games/escalada-montanha/index.html</loc>
     <lastmod>2026-08-11</lastmod>
     <priority>0.8</priority>
   </url>
@@ -317,6 +332,11 @@
   </url>
   <url>
     <loc>https://jogazone.pt/games/pendulo-maluco/index.html</loc>
+    <lastmod>2026-08-11</lastmod>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://jogazone.pt/games/pesca/index.html</loc>
     <lastmod>2026-08-11</lastmod>
     <priority>0.8</priority>
   </url>
