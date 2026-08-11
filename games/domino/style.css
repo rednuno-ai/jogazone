@@ -1,0 +1,64 @@
+.dm-chain {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 4px;
+  min-height: 60px;
+  align-items: center;
+  justify-content: center;
+  margin: 16px 0;
+  padding: 10px;
+  background: rgba(255,255,255,.04);
+  border-radius: 8px;
+}
+
+.dm-hand {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 6px;
+  justify-content: center;
+  margin-bottom: 12px;
+}
+
+.dm-tile {
+  display: flex;
+  flex-direction: column;
+  width: 36px;
+  height: 64px;
+  background: #f4f1e8;
+  border-radius: 6px;
+  border: 2px solid #2a2a2a;
+  overflow: hidden;
+}
+
+.dm-tile.horiz {
+  flex-direction: row;
+  width: 64px;
+  height: 36px;
+}
+
+.dm-half {
+  flex: 1;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-weight: 800;
+  color: #1a1a1a;
+  font-size: .95rem;
+  border-bottom: 2px solid #2a2a2a;
+}
+
+.dm-tile.horiz .dm-half {
+  border-bottom: none;
+  border-right: 2px solid #2a2a2a;
+}
+
+.dm-tile.horiz .dm-half:last-child { border-right: none; }
+.dm-tile .dm-half:last-child { border-bottom: none; }
+
+.dm-tile.playable {
+  cursor: pointer;
+  border-color: #7ee8b5;
+  box-shadow: 0 0 8px rgba(126,232,181,.6);
+}
+
+.dm-tile.playable:hover { transform: translateY(-4px); }

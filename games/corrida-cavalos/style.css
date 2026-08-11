@@ -1,0 +1,60 @@
+.cc-picker {
+  display: flex;
+  gap: 8px;
+  justify-content: center;
+  flex-wrap: wrap;
+  margin-bottom: 14px;
+}
+
+.cc-pick-btn {
+  padding: 8px 14px;
+  border-radius: 8px;
+  border: 2px solid transparent;
+  cursor: pointer;
+  font-weight: 700;
+  color: #14182b;
+}
+
+.cc-pick-btn.chosen { border-color: #fff; }
+
+.cc-track {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+  margin-bottom: 14px;
+}
+
+.cc-lane {
+  position: relative;
+  height: 34px;
+  background: rgba(255,255,255,.04);
+  border-radius: 6px;
+  overflow: hidden;
+}
+
+.cc-lane::after {
+  content: "";
+  position: absolute;
+  right: 6px;
+  top: 0;
+  bottom: 0;
+  width: 3px;
+  background: repeating-linear-gradient(180deg, #fff 0 6px, #000 6px 12px);
+}
+
+.cc-horse {
+  position: absolute;
+  top: 4px;
+  width: 26px;
+  height: 26px;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: .8rem;
+  font-weight: 800;
+  color: #14182b;
+  transition: left .05s linear;
+}
+
+.cc-horse.mine { box-shadow: 0 0 0 3px #fff; }

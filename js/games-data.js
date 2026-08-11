@@ -795,6 +795,42 @@ const GAMES = [
     path: "games/basquete3d/index.html",
     colors: ["#0d1a2f", "#ff9a5a"],
     icon: "ball"
+  },
+  {
+    id: "domino",
+    title: "Dominó",
+    category: "Tabuleiro",
+    desc: "Encaixa as tuas peças nas pontas da cadeia e fica sem peças na mão primeiro que o computador.",
+    path: "games/domino/index.html",
+    colors: ["#f4f1e8", "#2a2a2a"],
+    icon: "dot"
+  },
+  {
+    id: "labirinto-espelhos",
+    title: "Labirinto de Espelhos",
+    category: "Puzzle",
+    desc: "Coloca espelhos para desviares o raio laser e acertares no alvo em níveis cada vez mais desafiantes.",
+    path: "games/labirinto-espelhos/index.html",
+    colors: ["#4caf6d", "#d9b23c"],
+    icon: "cross"
+  },
+  {
+    id: "corrida-cavalos",
+    title: "Corrida de Cavalos",
+    category: "Desporto",
+    desc: "Escolhe o teu cavalo e clica ritmadamente para lhe dares impulso e venceres a corrida.",
+    path: "games/corrida-cavalos/index.html",
+    colors: ["#ff5d73", "#5da9ff"],
+    icon: "goal"
+  },
+  {
+    id: "curling",
+    title: "Curling",
+    category: "Desporto",
+    desc: "Arrasta para lançares a pedra pelo gelo e tenta pará-la o mais perto possível do centro da casa.",
+    path: "games/curling/index.html",
+    colors: ["#d8ecf5", "#5da9ff"],
+    icon: "target"
   }
 ];
 

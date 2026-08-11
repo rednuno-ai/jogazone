@@ -1,0 +1,29 @@
+.le-grid {
+  display: grid;
+  grid-template-columns: repeat(8, 1fr);
+  gap: 2px;
+  max-width: 400px;
+  margin: 16px auto;
+  background: rgba(255,255,255,.04);
+  border-radius: 8px;
+  padding: 6px;
+}
+
+.le-cell {
+  aspect-ratio: 1;
+  background: rgba(255,255,255,.03);
+  border-radius: 4px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+  font-weight: 800;
+  font-size: 1.2rem;
+  color: #5da9ff;
+  position: relative;
+}
+
+.le-cell.source { background: #4caf6d; }
+.le-cell.target { background: #d9b23c; }
+.le-cell.lit { background: rgba(255,209,102,.25); }
+.le-cell.hit { background: #4caf6d; }

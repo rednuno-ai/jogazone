@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="pt-PT">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Dominó — JogaZone</title>
+<meta name="description" content="Encaixa as tuas peças nas pontas da cadeia e fica sem peças na mão primeiro que o computador. Joga grátis no browser.">
+<link rel="canonical" href="https://jogazone.pt/games/domino/index.html">
+<meta property="og:type" content="website">
+<meta property="og:title" content="Dominó — JogaZone">
+<meta property="og:description" content="Encaixa as tuas peças nas pontas da cadeia e fica sem peças na mão primeiro que o computador.">
+<meta property="og:image" content="https://jogazone.pt/assets/icons/og-image.png">
+<meta property="og:url" content="https://jogazone.pt/games/domino/index.html">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="Dominó — JogaZone">
+<meta name="twitter:description" content="Encaixa as tuas peças nas pontas da cadeia e fica sem peças na mão primeiro que o computador.">
+<meta name="twitter:image" content="https://jogazone.pt/assets/icons/og-image.png">
+<link rel="icon" href="../../assets/icons/favicon.svg" type="image/svg+xml">
+<link rel="stylesheet" href="../../css/style.css">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<header class="site-header"><div class="container"><a class="logo" href="../../index.html"><span class="mark">🎮</span>Joga<span class="tail">Zone</span></a></div></header>
+<main class="container">
+  <div class="game-page-header">
+    <a class="back-link" href="../../index.html">&larr; Todos os jogos</a>
+    <h1>Dominó</h1>
+  </div>
+  <div class="game-stage">
+    <div class="game-hud">
+      <div>As tuas peças: <strong id="hand-count">7</strong></div>
+      <div>Computador: <strong id="cpu-count">7</strong></div>
+      <div>Monte: <strong id="boneyard-count">14</strong></div>
+    </div>
+    <div id="status" class="game-hud">A tua vez</div>
+    <div id="chain" class="dm-chain"></div>
+    <div id="hand" class="dm-hand"></div>
+    <button class="btn" id="draw-btn">Comprar peça</button>
+  </div>
+  <div class="how-to-play">
+    <h2>Como jogar</h2>
+    <p>Clica numa peça destacada da tua mão para a encaixares numa ponta da cadeia que tenha o mesmo número. Se não tiveres nenhuma peça jogável, compra do monte. Vence quem ficar sem peças primeiro.</p>
+  </div>
+</main>
+<script src="script.js"></script>
+</body>
+</html>
