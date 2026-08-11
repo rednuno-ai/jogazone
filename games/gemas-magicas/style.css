@@ -1,0 +1,32 @@
+.gm-board {
+  display: grid;
+  grid-template-columns: repeat(8, 1fr);
+  gap: 4px;
+  max-width: 400px;
+  margin: 16px auto;
+  background: rgba(255,255,255,.04);
+  border-radius: 10px;
+  padding: 6px;
+}
+
+.gm-cell {
+  aspect-ratio: 1;
+  border-radius: 6px;
+  cursor: pointer;
+  transition: transform .12s;
+  position: relative;
+}
+
+.gm-cell.selected {
+  outline: 3px solid #fff;
+  outline-offset: -3px;
+  transform: scale(0.92);
+}
+
+.gm-cell.clearing {
+  animation: gm-pop .25s ease-out forwards;
+}
+
+@keyframes gm-pop {
+  to { transform: scale(0); opacity: 0; }
+}

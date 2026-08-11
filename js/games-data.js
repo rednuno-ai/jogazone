@@ -696,6 +696,33 @@ const GAMES = [
     path: "games/ritmo-magico/index.html",
     colors: ["#5da9ff", "#ff5d73"],
     icon: "note"
+  },
+  {
+    id: "cores-secretas",
+    title: "Cores Secretas",
+    category: "Puzzle",
+    desc: "Descobre a combinação secreta de 4 cores em 10 tentativas usando as pistas de acertos.",
+    path: "games/cores-secretas/index.html",
+    colors: ["#2d2d3a", "#ff5d73"],
+    icon: "dot"
+  },
+  {
+    id: "reversi",
+    title: "Reversi",
+    category: "Tabuleiro",
+    desc: "Vira as peças do adversário e domina o tabuleiro. O clássico jogo de estratégia.",
+    path: "games/reversi/index.html",
+    colors: ["#0d3d1f", "#f0f0f0"],
+    icon: "ball"
+  },
+  {
+    id: "gemas-magicas",
+    title: "Gemas Mágicas",
+    category: "Puzzle",
+    desc: "Troca gemas adjacentes para alinhares 3 ou mais da mesma cor e soma pontos contra o tempo.",
+    path: "games/gemas-magicas/index.html",
+    colors: ["#c792ea", "#ff9a5a"],
+    icon: "diamond"
   }
 ];
 

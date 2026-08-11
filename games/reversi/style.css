@@ -1,0 +1,40 @@
+.rv-board {
+  display: grid;
+  grid-template-columns: repeat(8, 1fr);
+  gap: 2px;
+  max-width: 400px;
+  margin: 16px auto;
+  background: #0d3d1f;
+  border: 3px solid #0a2e17;
+  border-radius: 8px;
+  padding: 4px;
+}
+
+.rv-cell {
+  aspect-ratio: 1;
+  background: #14562b;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+  border-radius: 3px;
+  position: relative;
+}
+
+.rv-cell.valid::after {
+  content: "";
+  width: 22%;
+  height: 22%;
+  border-radius: 50%;
+  background: rgba(255,255,255,.25);
+}
+
+.rv-piece {
+  width: 82%;
+  height: 82%;
+  border-radius: 50%;
+  transition: transform .25s;
+}
+
+.rv-piece.black { background: radial-gradient(circle at 35% 35%, #444, #111); }
+.rv-piece.white { background: radial-gradient(circle at 35% 35%, #fff, #ccc); }

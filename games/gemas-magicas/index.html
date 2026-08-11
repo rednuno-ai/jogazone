@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="pt-PT">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Gemas Mágicas — JogaZone</title>
+<meta name="description" content="Troca gemas adjacentes para alinhares 3 ou mais da mesma cor e soma pontos antes do tempo acabar. Joga grátis, direto no browser, sem downloads.">
+<link rel="canonical" href="https://jogazone.pt/games/gemas-magicas/index.html">
+<meta property="og:type" content="website">
+<meta property="og:title" content="Gemas Mágicas — JogaZone">
+<meta property="og:description" content="Troca gemas adjacentes para alinhares 3 ou mais da mesma cor e soma pontos antes do tempo acabar.">
+<meta property="og:image" content="https://jogazone.pt/assets/icons/og-image.png">
+<meta property="og:url" content="https://jogazone.pt/games/gemas-magicas/index.html">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="Gemas Mágicas — JogaZone">
+<meta name="twitter:description" content="Troca gemas adjacentes para alinhares 3 ou mais da mesma cor e soma pontos antes do tempo acabar.">
+<meta name="twitter:image" content="https://jogazone.pt/assets/icons/og-image.png">
+<link rel="icon" href="../../assets/icons/favicon.svg" type="image/svg+xml">
+<link rel="stylesheet" href="../../css/style.css">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<header class="site-header"><div class="container"><a class="logo" href="../../index.html"><span class="mark">🎮</span>Joga<span class="tail">Zone</span></a></div></header>
+<main class="container">
+  <div class="game-page-header">
+    <a class="back-link" href="../../index.html">&larr; Todos os jogos</a>
+    <h1>Gemas Mágicas</h1>
+  </div>
+  <div class="game-stage">
+    <div class="game-hud">
+      <div>Pontos: <strong id="score">0</strong></div>
+      <div>Tempo: <strong id="time">60</strong>s</div>
+    </div>
+    <div id="board" class="gm-board"></div>
+  </div>
+  <div class="how-to-play">
+    <h2>Como jogar</h2>
+    <p>Clica numa gema e depois numa gema vizinha para as trocares. Se a troca criar uma linha de 3 ou mais gemas iguais (horizontal ou vertical), elas desaparecem, somas pontos e novas gemas caem do topo. Soma o máximo antes que o tempo acabe.</p>
+  </div>
+</main>
+<script src="script.js"></script>
+</body>
+</html>
