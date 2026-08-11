@@ -16,8 +16,25 @@
 <meta name="twitter:description" content="O sudoku tradicional 9x9. Preenche a grelha sem repetir números na linha, coluna ou caixa.">
 <meta name="twitter:image" content="https://jogazone.pt/assets/icons/og-image.png">
 <link rel="icon" href="../../assets/icons/favicon.svg" type="image/svg+xml">
-<link rel="stylesheet" href="../../css/style.css">
+<link rel="stylesheet" href="../../css/style.css?v=100">
 <link rel="stylesheet" href="style.css">
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "VideoGame",
+  "name": "Sudoku Clássico",
+  "description": "O sudoku tradicional 9x9. Preenche a grelha sem repetir números na linha, coluna ou caixa 3x3. Joga grátis no browser.",
+  "url": "https://jogazone.pt/games/sudoku-classico/index.html",
+  "image": "https://jogazone.pt/assets/icons/og-image.png",
+  "applicationCategory": "Game",
+  "operatingSystem": "Any (Web Browser)",
+  "offers": {
+    "@type": "Offer",
+    "price": "0",
+    "priceCurrency": "EUR"
+  }
+}
+</script>
 </head>
 <body>
 <header class="site-header"><div class="container"><a class="logo" href="../../index.html"><span class="mark">🎮</span>Joga<span class="tail">Zone</span></a></div></header>
@@ -36,7 +53,14 @@
     <h2>Como jogar</h2>
     <p>Clica numa célula vazia e escolhe um número de 1 a 9. Cada linha, cada coluna e cada caixa 3x3 tem de conter todos os números de 1 a 9 sem repetições.</p>
   </div>
+  <div class="section-title">
+    <h2>Jogos relacionados</h2>
+    <span>Também podes gostar destes</span>
+  </div>
+  <div id="related-grid" class="game-grid"></div>
 </main>
 <script src="script.js"></script>
+<script src="../../js/games-data.js?v=100"></script>
+<script src="../../js/related.js?v=100"></script>
 </body>
 </html>

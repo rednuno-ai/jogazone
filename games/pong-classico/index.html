@@ -16,8 +16,25 @@
 <meta name="twitter:description" content="O duelo de raquetes mais icónico. Sozinho ou a dois.">
 <meta name="twitter:image" content="https://jogazone.pt/assets/icons/og-image.png">
 <link rel="icon" href="../../assets/icons/favicon.svg" type="image/svg+xml">
-<link rel="stylesheet" href="../../css/style.css">
+<link rel="stylesheet" href="../../css/style.css?v=100">
 <link rel="stylesheet" href="style.css">
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "VideoGame",
+  "name": "Pong Clássico",
+  "description": "O duelo de raquetes mais icónico. Sozinho ou a dois. Joga grátis, direto no browser, sem downloads.",
+  "url": "https://jogazone.pt/games/pong-classico/index.html",
+  "image": "https://jogazone.pt/assets/icons/og-image.png",
+  "applicationCategory": "Game",
+  "operatingSystem": "Any (Web Browser)",
+  "offers": {
+    "@type": "Offer",
+    "price": "0",
+    "priceCurrency": "EUR"
+  }
+}
+</script>
 </head>
 <body>
 <header class="site-header">
@@ -54,6 +71,11 @@
       Este jogo usa o motor open-source <a href="https://github.com/jakesgordon/javascript-pong" target="_blank" rel="noopener">javascript-pong</a> de Jake Gordon, licenciado sob a <a href="LICENSE-jakesgordon.txt" target="_blank" rel="noopener">licença MIT</a>.
     </p>
   </div>
+  <div class="section-title">
+    <h2>Jogos relacionados</h2>
+    <span>Também podes gostar destes</span>
+  </div>
+  <div id="related-grid" class="game-grid"></div>
 </main>
 
 <script src="js/game.js"></script>
@@ -63,5 +85,7 @@
     Game.start('game', Pong, { sound: true, stats: false, footprints: false, predictions: false });
   });
 </script>
+<script src="../../js/games-data.js?v=100"></script>
+<script src="../../js/related.js?v=100"></script>
 </body>
 </html>

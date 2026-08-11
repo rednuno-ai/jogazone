@@ -16,8 +16,25 @@
 <meta name="twitter:description" content="Guia a cobra, come energia e não batas nas paredes.">
 <meta name="twitter:image" content="https://jogazone.pt/assets/icons/og-image.png">
 <link rel="icon" href="../../assets/icons/favicon.svg" type="image/svg+xml">
-<link rel="stylesheet" href="../../css/style.css">
+<link rel="stylesheet" href="../../css/style.css?v=100">
 <link rel="stylesheet" href="style.css">
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "VideoGame",
+  "name": "Cobra Elétrica",
+  "description": "Guia a cobra, come energia e não batas nas paredes. Joga grátis, direto no browser, sem downloads.",
+  "url": "https://jogazone.pt/games/cobra/index.html",
+  "image": "https://jogazone.pt/assets/icons/og-image.png",
+  "applicationCategory": "Game",
+  "operatingSystem": "Any (Web Browser)",
+  "offers": {
+    "@type": "Offer",
+    "price": "0",
+    "priceCurrency": "EUR"
+  }
+}
+</script>
 </head>
 <body>
 <header class="site-header">
@@ -53,8 +70,15 @@
     <h2>Como jogar</h2>
     <p>Usa as setas do teclado (ou os botões) para guiar a cobra até à energia (●). Cada vez que comes, a cobra cresce. Não podes bater nas paredes nem no teu próprio corpo.</p>
   </div>
+  <div class="section-title">
+    <h2>Jogos relacionados</h2>
+    <span>Também podes gostar destes</span>
+  </div>
+  <div id="related-grid" class="game-grid"></div>
 </main>
 
 <script src="script.js"></script>
+<script src="../../js/games-data.js?v=100"></script>
+<script src="../../js/related.js?v=100"></script>
 </body>
 </html>

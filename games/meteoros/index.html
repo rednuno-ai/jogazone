@@ -16,8 +16,25 @@
 <meta name="twitter:description" content="Pilota a nave, dispara e destrói os meteoros antes que te atinjam.">
 <meta name="twitter:image" content="https://jogazone.pt/assets/icons/og-image.png">
 <link rel="icon" href="../../assets/icons/favicon.svg" type="image/svg+xml">
-<link rel="stylesheet" href="../../css/style.css">
+<link rel="stylesheet" href="../../css/style.css?v=100">
 <link rel="stylesheet" href="style.css">
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "VideoGame",
+  "name": "Meteoros",
+  "description": "Pilota a nave, dispara e destrói os meteoros antes que te atinjam. Joga grátis, direto no browser, sem downloads.",
+  "url": "https://jogazone.pt/games/meteoros/index.html",
+  "image": "https://jogazone.pt/assets/icons/og-image.png",
+  "applicationCategory": "Game",
+  "operatingSystem": "Any (Web Browser)",
+  "offers": {
+    "@type": "Offer",
+    "price": "0",
+    "priceCurrency": "EUR"
+  }
+}
+</script>
 </head>
 <body>
 <header class="site-header">
@@ -43,11 +60,18 @@
       Baseado no motor open-source <a href="https://github.com/jsocol/asteroids" target="_blank" rel="noopener">asteroids</a> de James Socol, licenciado sob a <a href="LICENSE-jsocol.txt" target="_blank" rel="noopener">licença BSD-2-Clause</a>. Renomeado e traduzido para o JogaZone.
     </p>
   </div>
+  <div class="section-title">
+    <h2>Jogos relacionados</h2>
+    <span>Também podes gostar destes</span>
+  </div>
+  <div id="related-grid" class="game-grid"></div>
 </main>
 
 <script src="js/meteoros.js"></script>
 <script>
   new Meteoros(document.getElementById('meteoros'));
 </script>
+<script src="../../js/games-data.js?v=100"></script>
+<script src="../../js/related.js?v=100"></script>
 </body>
 </html>

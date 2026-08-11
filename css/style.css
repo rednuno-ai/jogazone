@@ -26,7 +26,8 @@
   --cat-tabuleiro: var(--accent-3);
   --cat-palavras: var(--accent-4);
   --cat-camioes: #ff9a5a;
-  --cat-3d: var(--accent-5);
+  --cat-3d: #6c7fff;
+  --cat-desporto: #4ecdc4;
 }
 
 * { box-sizing: border-box; }

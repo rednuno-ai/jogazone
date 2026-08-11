@@ -16,8 +16,25 @@
 <meta name="twitter:description" content="Chega o mais perto possível de 21 sem passares e vence a banca.">
 <meta name="twitter:image" content="https://jogazone.pt/assets/icons/og-image.png">
 <link rel="icon" href="../../assets/icons/favicon.svg" type="image/svg+xml">
-<link rel="stylesheet" href="../../css/style.css">
+<link rel="stylesheet" href="../../css/style.css?v=100">
 <link rel="stylesheet" href="style.css">
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "VideoGame",
+  "name": "Vinte e Um",
+  "description": "Chega o mais perto possível de 21 sem passares e vence a banca. O clássico jogo de cartas. Joga grátis, direto no browser, sem downloads.",
+  "url": "https://jogazone.pt/games/vinte-e-um/index.html",
+  "image": "https://jogazone.pt/assets/icons/og-image.png",
+  "applicationCategory": "Game",
+  "operatingSystem": "Any (Web Browser)",
+  "offers": {
+    "@type": "Offer",
+    "price": "0",
+    "priceCurrency": "EUR"
+  }
+}
+</script>
 </head>
 <body>
 <header class="site-header"><div class="container"><a class="logo" href="../../index.html"><span class="mark">🎮</span>Joga<span class="tail">Zone</span></a></div></header>
@@ -54,7 +71,14 @@
     <h2>Como jogar</h2>
     <p>O objetivo é chegar o mais perto de 21 sem ultrapassar. Figuras valem 10, Ás vale 1 ou 11. Pede cartas ou para quando quiseres. Depois a banca joga: pede carta até ter pelo menos 17. Quem ficar mais perto de 21 sem passar vence.</p>
   </div>
+  <div class="section-title">
+    <h2>Jogos relacionados</h2>
+    <span>Também podes gostar destes</span>
+  </div>
+  <div id="related-grid" class="game-grid"></div>
 </main>
 <script src="script.js"></script>
+<script src="../../js/games-data.js?v=100"></script>
+<script src="../../js/related.js?v=100"></script>
 </body>
 </html>

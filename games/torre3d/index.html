@@ -16,8 +16,25 @@
 <meta name="twitter:description" content="Empilha blocos em 3D e constrói a torre mais alta possível.">
 <meta name="twitter:image" content="https://jogazone.pt/assets/icons/og-image.png">
 <link rel="icon" href="../../assets/icons/favicon.svg" type="image/svg+xml">
-<link rel="stylesheet" href="../../css/style.css">
+<link rel="stylesheet" href="../../css/style.css?v=100">
 <link rel="stylesheet" href="style.css">
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "VideoGame",
+  "name": "Torre 3D",
+  "description": "Empilha blocos em 3D e constrói a torre mais alta possível. Joga grátis, direto no browser, sem downloads.",
+  "url": "https://jogazone.pt/games/torre3d/index.html",
+  "image": "https://jogazone.pt/assets/icons/og-image.png",
+  "applicationCategory": "Game",
+  "operatingSystem": "Any (Web Browser)",
+  "offers": {
+    "@type": "Offer",
+    "price": "0",
+    "priceCurrency": "EUR"
+  }
+}
+</script>
 </head>
 <body>
 <header class="site-header"><div class="container"><a class="logo" href="../../index.html"><span class="mark">🎮</span>Joga<span class="tail">Zone</span></a></div></header>
@@ -38,8 +55,15 @@
     <p>Clica (ou prime Espaço) para largar o bloco quando estiver alinhado com o de baixo. A direção do bloco alterna entre X e Z a cada nível — encaixa o melhor possível para construíres a torre mais alta em 3D.</p>
     <p style="margin-top:12px;opacity:.7;font-size:12px;">Renderizado com <a href="https://threejs.org/" target="_blank" rel="noopener">Three.js</a> (licença MIT).</p>
   </div>
+  <div class="section-title">
+    <h2>Jogos relacionados</h2>
+    <span>Também podes gostar destes</span>
+  </div>
+  <div id="related-grid" class="game-grid"></div>
 </main>
 <script src="https://cdn.jsdelivr.net/npm/three@0.160.0/build/three.min.js"></script>
 <script src="script.js"></script>
+<script src="../../js/games-data.js?v=100"></script>
+<script src="../../js/related.js?v=100"></script>
 </body>
 </html>

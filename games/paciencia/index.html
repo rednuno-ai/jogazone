@@ -16,8 +16,25 @@
 <meta name="twitter:description" content="O clássico jogo de cartas Klondike. Organiza as fundações por naipe do Ás ao Rei.">
 <meta name="twitter:image" content="https://jogazone.pt/assets/icons/og-image.png">
 <link rel="icon" href="../../assets/icons/favicon.svg" type="image/svg+xml">
-<link rel="stylesheet" href="../../css/style.css">
+<link rel="stylesheet" href="../../css/style.css?v=100">
 <link rel="stylesheet" href="style.css">
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "VideoGame",
+  "name": "Paciência",
+  "description": "O clássico jogo de cartas Klondike. Organiza as fundações por naipe do Ás ao Rei. Joga grátis, direto no browser, sem downloads.",
+  "url": "https://jogazone.pt/games/paciencia/index.html",
+  "image": "https://jogazone.pt/assets/icons/og-image.png",
+  "applicationCategory": "Game",
+  "operatingSystem": "Any (Web Browser)",
+  "offers": {
+    "@type": "Offer",
+    "price": "0",
+    "priceCurrency": "EUR"
+  }
+}
+</script>
 </head>
 <body>
 <header class="site-header"><div class="container"><a class="logo" href="../../index.html"><span class="mark">🎮</span>Joga<span class="tail">Zone</span></a></div></header>
@@ -44,7 +61,14 @@
     <h2>Como jogar</h2>
     <p>Clica no monte para revelares cartas. Clica numa carta para a selecionares e depois clica no destino (outra coluna ou uma fundação) para a moveres. Constrói as colunas alternando cores em ordem decrescente, e as fundações por naipe em ordem crescente a partir do Ás.</p>
   </div>
+  <div class="section-title">
+    <h2>Jogos relacionados</h2>
+    <span>Também podes gostar destes</span>
+  </div>
+  <div id="related-grid" class="game-grid"></div>
 </main>
 <script src="script.js"></script>
+<script src="../../js/games-data.js?v=100"></script>
+<script src="../../js/related.js?v=100"></script>
 </body>
 </html>

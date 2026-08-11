@@ -5,11 +5,12 @@ const CATEGORY_VAR = {
   "Tabuleiro": "--cat-tabuleiro",
   "Palavras": "--cat-palavras",
   "Camiões": "--cat-camioes",
-  "3D": "--cat-3d"
+  "3D": "--cat-3d",
+  "Desporto": "--cat-desporto"
 };
 
-const FEATURED_IDS = ["nebulosa", "tunel-neon", "meteoros", "corrida", "torre3d", "impossivel"];
-const NEW_IDS = ["estrada3d", "labirinto3d", "tunel-neon", "torre3d"];
+const FEATURED_IDS = ["nebulosa", "palavra-secreta", "domino", "basquete3d", "gemas-magicas", "curling"];
+const NEW_IDS = ["pesca", "concurso-latas", "escalada-montanha", "batalha-pioes", "labirinto-giratorio", "pendulo-maluco", "minigolfe3d", "sudoku-classico"];
 
 function renderChips() {
   const wrap = document.getElementById("chips");
@@ -65,14 +66,23 @@ document.addEventListener("DOMContentLoaded", () => {
   renderFeatured();
   renderGrid("Todos", "");
 
+  function applyFilter(cat) {
+    document.querySelectorAll(".chip").forEach((c) => c.classList.toggle("active", c.dataset.cat === cat));
+    const search = document.getElementById("search-input").value;
+    renderGrid(cat, search);
+  }
+
   document.getElementById("chips").addEventListener("click", (e) => {
     const chip = e.target.closest(".chip");
     if (!chip) return;
-    document.querySelectorAll(".chip").forEach((c) => c.classList.remove("active"));
-    chip.classList.add("active");
-    const search = document.getElementById("search-input").value;
-    renderGrid(chip.dataset.cat, search);
+    applyFilter(chip.dataset.cat);
     document.getElementById("jogos").scrollIntoView({ behavior: "smooth", block: "start" });
+  });
+
+  document.getElementById("footer-cats").addEventListener("click", (e) => {
+    const link = e.target.closest("a[data-cat]");
+    if (!link) return;
+    applyFilter(link.dataset.cat);
   });
 
   document.getElementById("search-input").addEventListener("input", (e) => {

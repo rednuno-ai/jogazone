@@ -16,8 +16,25 @@
 <meta name="twitter:description" content="Compra terrenos, cobra rendas e tenta não ficar sem dinheiro contra o rival.">
 <meta name="twitter:image" content="https://jogazone.pt/assets/icons/og-image.png">
 <link rel="icon" href="../../assets/icons/favicon.svg" type="image/svg+xml">
-<link rel="stylesheet" href="../../css/style.css">
+<link rel="stylesheet" href="../../css/style.css?v=100">
 <link rel="stylesheet" href="style.css">
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "VideoGame",
+  "name": "Império Imobiliário 3D",
+  "description": "Compra terrenos, cobra rendas e tenta não ficar sem dinheiro contra o rival. Joga grátis, direto no browser, sem downloads.",
+  "url": "https://jogazone.pt/games/imperio3d/index.html",
+  "image": "https://jogazone.pt/assets/icons/og-image.png",
+  "applicationCategory": "Game",
+  "operatingSystem": "Any (Web Browser)",
+  "offers": {
+    "@type": "Offer",
+    "price": "0",
+    "priceCurrency": "EUR"
+  }
+}
+</script>
 </head>
 <body>
 <header class="site-header"><div class="container"><a class="logo" href="../../index.html"><span class="mark">🎮</span>Joga<span class="tail">Zone</span></a></div></header>
@@ -40,8 +57,15 @@
     <h2>Como jogar</h2>
     <p>Lança o dado para avançares no tabuleiro. Compra terrenos livres, cobra renda a quem calhar nos teus, e cuidado com os impostos. Ganha quem não ficar sem dinheiro! Jogo original do JogaZone, sem qualquer ligação a marcas registadas.</p>
   </div>
+  <div class="section-title">
+    <h2>Jogos relacionados</h2>
+    <span>Também podes gostar destes</span>
+  </div>
+  <div id="related-grid" class="game-grid"></div>
 </main>
 <script src="https://cdn.jsdelivr.net/npm/three@0.160.0/build/three.min.js"></script>
 <script src="script.js"></script>
+<script src="../../js/games-data.js?v=100"></script>
+<script src="../../js/related.js?v=100"></script>
 </body>
 </html>
