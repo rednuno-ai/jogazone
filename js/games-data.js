@@ -687,6 +687,15 @@ const GAMES = [
     path: "games/motocross/index.html",
     colors: ["#e8b878", "#a86a3a"],
     icon: "target"
+  },
+  {
+    id: "ritmo-magico",
+    title: "Ritmo Mágico",
+    category: "Ação",
+    desc: "Acerta nas notas certas ao ritmo certo em 4 colunas — encadeia combos sem perderes vidas.",
+    path: "games/ritmo-magico/index.html",
+    colors: ["#5da9ff", "#ff5d73"],
+    icon: "note"
   }
 ];
 
@@ -713,7 +722,8 @@ const ICON_PATHS = {
   bubbles: '<circle cx="35" cy="45" r="16" fill="rgba(255,255,255,.85)"/><circle cx="62" cy="35" r="12" fill="rgba(255,255,255,.65)"/><circle cx="60" cy="62" r="10" fill="rgba(255,255,255,.55)"/>',
   ball: '<circle cx="50" cy="50" r="26" fill="rgba(255,255,255,.9)"/><path d="M50 24 V76 M24 50 H76 M30 32 Q50 50 30 68 M70 32 Q50 50 70 68" stroke="rgba(0,0,0,.3)" stroke-width="2" fill="none"/>',
   goal: '<g stroke="rgba(255,255,255,.9)" stroke-width="4" fill="none"><rect x="22" y="24" width="56" height="38"/><path d="M22 24 L30 34 M78 24 L70 34 M22 62 L30 52 M78 62 L70 52 M22 24 L22 62 M78 24 L78 62"/></g><circle cx="50" cy="72" r="6" fill="rgba(255,255,255,.9)"/>',
-  golfflag: '<line x1="35" y1="20" x2="35" y2="82" stroke="rgba(255,255,255,.9)" stroke-width="4"/><path d="M35 22 L68 32 L35 42 Z" fill="rgba(255,255,255,.9)"/><ellipse cx="35" cy="82" rx="20" ry="6" fill="rgba(255,255,255,.25)"/>'
+  golfflag: '<line x1="35" y1="20" x2="35" y2="82" stroke="rgba(255,255,255,.9)" stroke-width="4"/><path d="M35 22 L68 32 L35 42 Z" fill="rgba(255,255,255,.9)"/><ellipse cx="35" cy="82" rx="20" ry="6" fill="rgba(255,255,255,.25)"/>',
+  note: '<g fill="rgba(255,255,255,.9)"><circle cx="30" cy="68" r="11"/><circle cx="66" cy="60" r="11"/><rect x="39" y="24" width="6" height="46"/><rect x="75" y="18" width="6" height="44"/><path d="M39 24 L81 18 V30 L39 42 Z"/></g>'
 };
 
 function gameCoverSVG(game) {
