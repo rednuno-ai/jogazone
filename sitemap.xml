@@ -251,6 +251,11 @@
     <priority>0.8</priority>
   </url>
   <url>
+    <loc>https://jogazone.pt/games/labirinto-giratorio/index.html</loc>
+    <lastmod>2026-08-11</lastmod>
+    <priority>0.8</priority>
+  </url>
+  <url>
     <loc>https://jogazone.pt/games/labirinto/index.html</loc>
     <lastmod>2026-08-11</lastmod>
     <priority>0.8</priority>
@@ -272,6 +277,11 @@
   </url>
   <url>
     <loc>https://jogazone.pt/games/meteoros/index.html</loc>
+    <lastmod>2026-08-11</lastmod>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://jogazone.pt/games/minigolfe3d/index.html</loc>
     <lastmod>2026-08-11</lastmod>
     <priority>0.8</priority>
   </url>
@@ -302,6 +312,11 @@
   </url>
   <url>
     <loc>https://jogazone.pt/games/penalti/index.html</loc>
+    <lastmod>2026-08-11</lastmod>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://jogazone.pt/games/pendulo-maluco/index.html</loc>
     <lastmod>2026-08-11</lastmod>
     <priority>0.8</priority>
   </url>
@@ -382,6 +397,11 @@
   </url>
   <url>
     <loc>https://jogazone.pt/games/sokoban/index.html</loc>
+    <lastmod>2026-08-11</lastmod>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://jogazone.pt/games/sudoku-classico/index.html</loc>
     <lastmod>2026-08-11</lastmod>
     <priority>0.8</priority>
   </url>

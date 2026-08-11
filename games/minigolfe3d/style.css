@@ -1,0 +1,12 @@
+.mg-wrap {
+  width: 100%;
+  max-width: 560px;
+  aspect-ratio: 4/3;
+  margin: 0 auto;
+  border-radius: 8px;
+  overflow: hidden;
+  border: 1px solid rgba(255,255,255,.1);
+  cursor: crosshair;
+}
+
+.mg-wrap canvas { display: block; width: 100%; height: 100%; }

@@ -831,6 +831,42 @@ const GAMES = [
     path: "games/curling/index.html",
     colors: ["#d8ecf5", "#5da9ff"],
     icon: "target"
+  },
+  {
+    id: "sudoku-classico",
+    title: "Sudoku Clássico",
+    category: "Puzzle",
+    desc: "O sudoku tradicional 9x9. Preenche a grelha sem repetir números na linha, coluna ou caixa 3x3.",
+    path: "games/sudoku-classico/index.html",
+    colors: ["#10131f", "#5da9ff"],
+    icon: "grid"
+  },
+  {
+    id: "minigolfe3d",
+    title: "Minigolfe 3D",
+    category: "3D",
+    desc: "Arrasta para dares tacada e mete a bola no buraco com o menor número de pancadas possível em 3D.",
+    path: "games/minigolfe3d/index.html",
+    colors: ["#0d1a2f", "#2d7a3a"],
+    icon: "golfflag"
+  },
+  {
+    id: "pendulo-maluco",
+    title: "Pêndulo Maluco",
+    category: "Ação",
+    desc: "Larga a bola do pêndulo no momento certo para a atirares para dentro do alvo.",
+    path: "games/pendulo-maluco/index.html",
+    colors: ["#0d1a2f", "#ff5d73"],
+    icon: "target"
+  },
+  {
+    id: "labirinto-giratorio",
+    title: "Labirinto Giratório",
+    category: "Puzzle",
+    desc: "Inclina o tabuleiro com as setas para guiares a bola até à saída sem cair nos buracos.",
+    path: "games/labirinto-giratorio/index.html",
+    colors: ["#1a1a2e", "#ffd166"],
+    icon: "orb"
   }
 ];
 
